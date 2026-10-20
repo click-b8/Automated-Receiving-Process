@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Project Map/07 Dashboard\"",
+      "color": {
+        "a": 1,
+        "rgb": 16119285
+      }
+    },
+    {
+      "query": "path:\"Project Map/05 QE Workflow\"",
+      "color": {
+        "a": 1,
+        "rgb": 15237946
+      }
+    },
+    {
+      "query": "path:\"Project Map/01 Governance\" OR file:CLAUDE",
+      "color": {
+        "a": 1,
+        "rgb": 9333999
+      }
+    },
+    {
+      "query": "path:\"Project Map/02 Code\"",
+      "color": {
+        "a": 1,
+        "rgb": 2864064
+      }
+    },
+    {
+      "query": "path:\"Project Map/03 Validation\"",
+      "color": {
+        "a": 1,
+        "rgb": 5025616
+      }
+    },
+    {
+      "query": "path:\"Project Map/04 History\"",
+      "color": {
+        "a": 1,
+        "rgb": 13938950
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 2.00167804878049,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.488,
+  "repelStrength": 20,
+  "linkStrength": 0.750243902439024,
+  "linkDistance": 500,
+  "scale": 0.08317427835927513,
+  "close": true
+}

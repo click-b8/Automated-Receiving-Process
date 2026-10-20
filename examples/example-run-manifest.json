@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-10-20T10:12:41",
+  "wi": "WI-7.4.3-01 Rev 02",
+  "script": "receive.py",
+  "po": { "number": "PO26-0085", "rev": "A", "date": "09/02/2026", "vendor": "Northwind Machining",
+          "line": "SR90-1101 Rev B Inserter", "qty_ordered": 50, "method": "pdfplumber" },
+  "packing_slip": { "qty": 50, "ship_date": "14-Oct-26", "ops_signature": "present, dated 10/16/26", "method": "visual (scanned)" },
+  "receiving_list": { "lot": "9900123", "rev": "B", "qty": 50, "received": "10/16/26 Quarantine",
+                      "method": "pdfplumber", "highlight": "text search (lot)" },
+  "mfg_coc": { "certificates": ["Certificate of Conformance (15 Oct 2026)", "Material certificate 17-4 PH (01 Sep 2026)",
+                                 "Passivation certificate ASTM A967 (10 Oct 2026)"],
+               "material": "17-4 PH stainless", "finish": "Passivate", "method": "pdfplumber" },
+  "drawing": { "key": "SR90-1101_RevB", "status": "cache hit" },
+  "section1_validation": { "result": "pass",
+    "values": { "E3": "26-0085", "E4": "Northwind Machining", "E5": "10/20/2026", "E6": "50",
+                "M3": "Inserter", "M4": "SR90-1101", "M5": "B", "M6": "9900123" } },
+  "section2": { "2.1": "Completed", "2.2": "Yes", "2.3": "Yes", "2.4": "N/A", "2.5": "N/A", "2.6": "No" },
+  "section5": "N/A",
+  "section6": { "6.1": "No", "6.2": "N/A", "disposition": "Raw Goods" },
+  "package": { "path": "In-Progress Receiving\\PO26-0085 Receiving Part 1 - SR90-1101.pdf", "pages": 12,
+    "order": [ {"doc": "PO", "pages": 1, "start": 1}, {"doc": "PackingSlip", "pages": 1, "start": 2},
+               {"doc": "ReceivingList", "pages": 1, "start": 3}, {"doc": "Drawing Rev B", "pages": 2, "start": 4},
+               {"doc": "PRF", "pages": 3, "start": 6}, {"doc": "MfgCOC", "pages": 3, "start": 9},
+               {"doc": "MfgReport", "pages": 1, "start": 12} ] },
+  "excluded": { "26-0085 - Northwind Machining.pdf p2": "Quote page — not part of the PO record." },
+  "flags": [
+    "2.4 = N/A — vendor is not a contract manufacturer that issues travelers; the document named 'traveler' was compiled as the manufacturer inspection report (drives 2.3)."
+  ]
+}

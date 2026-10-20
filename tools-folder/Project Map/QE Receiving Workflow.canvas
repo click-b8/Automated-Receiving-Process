@@ -1,0 +1,799 @@
+{
+	"nodes": [
+		{
+			"id": "g5",
+			"type": "group",
+			"x": 1120,
+			"y": 1540,
+			"width": 780,
+			"height": 748,
+			"color": "6",
+			"label": "W06 automation"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"x": 1120,
+			"y": 420,
+			"width": 780,
+			"height": 328,
+			"color": "6",
+			"label": "W03 automation"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"x": 1120,
+			"y": 100,
+			"width": 780,
+			"height": 268,
+			"color": "6",
+			"label": "W02 automation"
+		},
+		{
+			"id": "g7",
+			"type": "group",
+			"x": 1120,
+			"y": 2700,
+			"width": 780,
+			"height": 180,
+			"color": "6",
+			"label": "W08 automation"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"x": 1120,
+			"y": 880,
+			"width": 780,
+			"height": 150,
+			"color": "6",
+			"label": "W04 automation"
+		},
+		{
+			"id": "g6",
+			"type": "group",
+			"x": 1120,
+			"y": 2380,
+			"width": 780,
+			"height": 150,
+			"color": "6",
+			"label": "W07 automation"
+		},
+		{
+			"id": "g8",
+			"type": "group",
+			"x": 1120,
+			"y": 3020,
+			"width": 780,
+			"height": 150,
+			"color": "6",
+			"label": "W09 automation"
+		},
+		{
+			"id": "g4",
+			"type": "group",
+			"x": 1120,
+			"y": 1240,
+			"width": 780,
+			"height": 144,
+			"color": "6",
+			"label": "W05 automation"
+		},
+		{
+			"id": "c4_0",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 5 - Parse Drawing with Cache.md",
+			"x": 1140,
+			"y": 1280,
+			"width": 360,
+			"height": 80
+		},
+		{
+			"id": "c3_0",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 2.5 - Validate PRF Section 1 (Blocking Gate).md",
+			"x": 1140,
+			"y": 920,
+			"width": 360,
+			"height": 90
+		},
+		{
+			"id": "c3_1",
+			"type": "file",
+			"file": "Project Map/02 Code/Edge-Case Scripts.md",
+			"x": 1520,
+			"y": 920,
+			"width": 360,
+			"height": 60
+		},
+		{
+			"id": "c2_0",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 4 - Extract Data from Documents.md",
+			"x": 1140,
+			"y": 460,
+			"width": 360,
+			"height": 68
+		},
+		{
+			"id": "c2_1",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 2 - Match & Classify Documents.md",
+			"x": 1520,
+			"y": 468,
+			"width": 360,
+			"height": 90
+		},
+		{
+			"id": "c2_2",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 7 - Section 2 Determination (Fixed Rules).md",
+			"x": 1140,
+			"y": 608,
+			"width": 360,
+			"height": 110
+		},
+		{
+			"id": "c2_3",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 6 - Cross-Reference Source Documents.md",
+			"x": 1520,
+			"y": 608,
+			"width": 360,
+			"height": 80
+		},
+		{
+			"id": "g0",
+			"type": "text",
+			"text": "*No automation: entirely physical or manual.*",
+			"x": 1100,
+			"y": -35,
+			"width": 780,
+			"height": 70,
+			"color": "1"
+		},
+		{
+			"id": "c1_0",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 1 - Verify Folders and Identify Parts.md",
+			"x": 1140,
+			"y": 140,
+			"width": 360,
+			"height": 94
+		},
+		{
+			"id": "c1_1",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 2 - Match & Classify Documents.md",
+			"x": 1520,
+			"y": 140,
+			"width": 360,
+			"height": 94
+		},
+		{
+			"id": "r1",
+			"type": "text",
+			"text": "- Packing slip\n- Manufacturer / sterilization COCs\n- Travelers, inspection reports\n- PO and drawings already on file",
+			"x": 500,
+			"y": 280,
+			"width": 320,
+			"height": 168,
+			"color": "3"
+		},
+		{
+			"id": "p3",
+			"type": "text",
+			"text": "## W04 \u00b7 Staged for Inspection (Monday)\n**Who:** QE / Engineering  \n**Where:** Quarantine\n\n- Parts wait in Quarantine for the inspection day.\n- Start the PRF (QF 7.4.3-02) from the template and fill Section 1: part info, quantity inspected (N/A, 100% or AQL), QDA.\n- Save it to `Inspection Forms\\` as `PRF <part#> Rev X.xlsx` (add `Lot X` when the same part and rev appear twice).\n\n[[W04 - Staged for Inspection (Monday)|Open step note \u2192]]",
+			"x": 0,
+			"y": 974,
+			"width": 440,
+			"height": 288,
+			"color": "2"
+		},
+		{
+			"id": "r3",
+			"type": "text",
+			"text": "- QF 7.4.3-02 PRF, Section 1",
+			"x": 500,
+			"y": 974,
+			"width": 320,
+			"height": 72,
+			"color": "3"
+		},
+		{
+			"id": "p1",
+			"type": "text",
+			"text": "## W02 \u00b7 Paperwork Gathered and Filed to the PO Folder\n**Who:** Operations (SOP Table 1, step 2)  \n**Where:** Quarantine / Box PO folder\n\n- Collect the packing slip, manufacturer COCs, sterilization COCs, travelers and vendor inspection reports.\n- Scan or save them into the PO folder in Box: `Shipping Docs\\`, `COCs\\`, `Drawings\\`.\n\n[[W02 - Paperwork Gathered and Filed to the PO Folder|Open step note \u2192]]",
+			"x": 0,
+			"y": 234,
+			"width": 440,
+			"height": 260,
+			"color": "2"
+		},
+		{
+			"id": "p2",
+			"type": "text",
+			"text": "## W03 \u00b7 Received into Quarantine in ERP\n**Who:** Operations  \n**Where:** Quarantine / ERP\n\n- Count and check the goods against the packing slip.\n- Sign and date the packing slip (\"No Discrepancies\" when clean).\n- Complete the receiving list QF 7.4.3-01: receiving date, location Quarantine, qty, lot, rev, mfg/exp/ster dates.\n- Receive the lot into ERP so ERP lot traceability starts (SOP 7.4.3 \u00a78.2).\n\n[[W03 - Received into Quarantine in ERP|Open step note \u2192]]",
+			"x": 0,
+			"y": 608,
+			"width": 440,
+			"height": 243,
+			"color": "2"
+		},
+		{
+			"id": "r2",
+			"type": "text",
+			"text": "- QF 7.4.3-01 receiving list\n- Signed and dated packing slip\n- ERP receipt",
+			"x": 500,
+			"y": 582,
+			"width": 320,
+			"height": 136,
+			"color": "3"
+		},
+		{
+			"id": "hdr_title",
+			"type": "text",
+			"text": "# QE Receiving Workflow \u2014 pallet to Completed Receiving\nEach row is one physical step. Left: what people do. Middle: the records it produces. Right: the automation embedded in that step.  Orange = physical / Operations \u00b7 Cyan = automation run \u00b7 Red = review and signatures \u00b7 Green = record filed \u00b7 Yellow = records \u00b7 Purple = code steps.  Overview note: [[QE Receiving Workflow]]",
+			"x": 0,
+			"y": -330,
+			"width": 1620,
+			"height": 150
+		},
+		{
+			"id": "hdr_a",
+			"type": "text",
+			"text": "### Physical step (who / where)",
+			"x": 0,
+			"y": -150,
+			"width": 440,
+			"height": 60,
+			"color": "2"
+		},
+		{
+			"id": "hdr_b",
+			"type": "text",
+			"text": "### Records produced",
+			"x": 500,
+			"y": -150,
+			"width": 320,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"id": "r0",
+			"type": "text",
+			"text": "- Vendor packing slip",
+			"x": 500,
+			"y": 0,
+			"width": 320,
+			"height": 72,
+			"color": "3"
+		},
+		{
+			"id": "hdr_c",
+			"type": "text",
+			"text": "### Automation embedded in this step",
+			"x": 1100,
+			"y": -150,
+			"width": 780,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"id": "p0",
+			"type": "text",
+			"text": "## W01 \u00b7 Parts Arrive at the Receiving Dock\n**Who:** Operations  \n**Where:** Receiving Dock (SOP 7.4.3 \u00a74.2)\n\n- Carrier delivers the pallet or boxes; they sit on the dock.\n- The vendor's packing slip (and sometimes certs) ships with the goods.\n\n[[W01 - Parts Arrive at the Receiving Dock|Open step note \u2192]]",
+			"x": 0,
+			"y": -29,
+			"width": 440,
+			"height": 202,
+			"color": "2"
+		},
+		{
+			"id": "c1_3",
+			"type": "file",
+			"file": "Project Map/01 Governance/File Access Rules.md",
+			"x": 1520,
+			"y": 264,
+			"width": 360,
+			"height": 60
+		},
+		{
+			"id": "c1_2",
+			"type": "file",
+			"file": "Project Map/01 Governance/Folder Structure.md",
+			"x": 1140,
+			"y": 269,
+			"width": 360,
+			"height": 50
+		},
+		{
+			"id": "c7_0",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 8 - Fill PRF Sections 2, 5, 6.md",
+			"x": 1140,
+			"y": 2740,
+			"width": 360,
+			"height": 80
+		},
+		{
+			"id": "p7",
+			"type": "text",
+			"text": "## W08 \u00b7 Routed for Signatures by Email\n**Who:** QE sends; Director of Operations / Engineering Reviewer / Quality Manager sign  \n**Where:** Email + Adobe\n\n- 2.6 = Yes (confidential Biologic): **Director of Operations** (Director of Operations) signs first.\n- 2.4 = Yes: Quality Manager initials (H29).\n- Section 6 discrepancies: **Engineering Reviewer** signs before Quality Manager.\n- **Quality Manager** gives the final review and acceptance (SOP Table 1, step 4).\n\n[[W08 - Routed for Signatures by Email|Open step note \u2192]]",
+			"x": 0,
+			"y": 2622,
+			"width": 440,
+			"height": 300,
+			"color": "1"
+		},
+		{
+			"id": "r7",
+			"type": "text",
+			"text": "- Fully signed compiled package",
+			"x": 500,
+			"y": 2622,
+			"width": 320,
+			"height": 72,
+			"color": "3"
+		},
+		{
+			"id": "p8",
+			"type": "text",
+			"text": "## W09 \u00b7 Filed to Completed Receiving\n**Who:** QE (confirm who files)  \n**Where:** PO folder in Box \u2192 `Completed Receiving\\`\n\n- Save the fully signed package into the PO's `Completed Receiving\\` subfolder.\n\n[[W09 - Filed to Completed Receiving|Open step note \u2192]]",
+			"x": 0,
+			"y": 2992,
+			"width": 440,
+			"height": 176,
+			"color": "4"
+		},
+		{
+			"id": "p9",
+			"type": "text",
+			"text": "## W10 \u00b7 Released to Inventory or Returned\n**Who:** Operations (SOP Table 1, step 5)  \n**Where:** Quarantine \u2192 inventory location / vendor\n\n- Move the goods to the location the PRF disposition calls for (Raw Goods / Finished Goods) and transfer them in ERP.\n- Rejected goods: return to vendor or hold under SOP 8.3.\n\n[[W10 - Released to Inventory or Returned|Open step note \u2192]]",
+			"x": 0,
+			"y": 3238,
+			"width": 440,
+			"height": 232,
+			"color": "2"
+		},
+		{
+			"id": "r9",
+			"type": "text",
+			"text": "- ERP location transfer\n- PO folder documentation updated",
+			"x": 500,
+			"y": 3238,
+			"width": 320,
+			"height": 104,
+			"color": "3"
+		},
+		{
+			"id": "c8_0",
+			"type": "file",
+			"file": "Project Map/01 Governance/Comment & Discrepancy Reasoning Reference.md",
+			"x": 1140,
+			"y": 3060,
+			"width": 360,
+			"height": 60
+		},
+		{
+			"id": "c8_1",
+			"type": "file",
+			"file": "Project Map/01 Governance/File Access Rules.md",
+			"x": 1520,
+			"y": 3060,
+			"width": 360,
+			"height": 60
+		},
+		{
+			"id": "c7_1",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 7 - Section 2 Determination (Fixed Rules).md",
+			"x": 1520,
+			"y": 2740,
+			"width": 360,
+			"height": 110
+		},
+		{
+			"id": "g9",
+			"type": "text",
+			"text": "*No automation: entirely physical or manual.*",
+			"x": 1140,
+			"y": 3272,
+			"width": 780,
+			"height": 70,
+			"color": "1"
+		},
+		{
+			"id": "c5_2",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 6 - Cross-Reference Source Documents.md",
+			"x": 1140,
+			"y": 1731,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "r8",
+			"type": "text",
+			"text": "- Signed package = the release record",
+			"x": 500,
+			"y": 2960,
+			"width": 320,
+			"height": 72,
+			"color": "3"
+		},
+		{
+			"id": "c5_9",
+			"type": "file",
+			"file": "Project Map/01 Governance/Manual vs Claude-Assisted Workflow.md",
+			"x": 1520,
+			"y": 2113,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "c5_7",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 9 - Run Manifest (Desktop Dev Aid).md",
+			"x": 1520,
+			"y": 1985,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "c5_4",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 6.6 - Vision-Based Key-Field Cross-Check.md",
+			"x": 1140,
+			"y": 1858,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "c6_0",
+			"type": "file",
+			"file": "Project Map/01 Governance/Comment & Discrepancy Reasoning Reference.md",
+			"x": 1140,
+			"y": 2420,
+			"width": 360,
+			"height": 80
+		},
+		{
+			"id": "c5_8",
+			"type": "file",
+			"file": "Project Map/01 Governance/Comment & Discrepancy Reasoning Reference.md",
+			"x": 1140,
+			"y": 2113,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "c5_6",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 8 - Fill PRF Sections 2, 5, 6.md",
+			"x": 1140,
+			"y": 1985,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "c5_1",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 3 - Compile the Receiving Package.md",
+			"x": 1520,
+			"y": 1603,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "c5_0",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 2.5 - Validate PRF Section 1 (Blocking Gate).md",
+			"x": 1140,
+			"y": 1603,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "p4",
+			"type": "text",
+			"text": "## W05 \u00b7 Physical Inspection, Dimensions and Testing\n**Who:** QE / Engineering (SOP Table 1, step 3)  \n**Where:** Quarantine inspection area, well lit (SOP \u00a76.5)\n\n- Sample per the AQL, or inspect 100%.\n- Measure the numbered critical dimensions on the drawing with calibrated tools.\n- Bench / DVT testing where required. For sterile packaging, check for foreign objects with the TAPPI chart (over 0.25 mm\u00b2 is rejected, SOP \u00a76.6).\n- Record the measurements in Section 3. Record comments, DVT reference and calibrated-tool info in Section 4. Save the PRF (xlsx + pdf).\n\n[[W05 - Physical Inspection, Dimensions and Testing|Open step note \u2192]]",
+			"x": 0,
+			"y": 1332,
+			"width": 440,
+			"height": 366,
+			"color": "2"
+		},
+		{
+			"id": "r4",
+			"type": "text",
+			"text": "- PRF Section 3 (measurements)\n- PRF Section 4 (engineer comments)",
+			"x": 500,
+			"y": 1332,
+			"width": 320,
+			"height": 104,
+			"color": "3"
+		},
+		{
+			"id": "p5",
+			"type": "text",
+			"text": "## W06 \u00b7 Compile with the Automation\n**Who:** QE runs it (manually or in a Claude Code session)  \n**Where:** Desktop tools folder \u2192 PO folder\n\n- Run `python receive.py PO26-xxxx`.\n- Read the summary: Section 1 mismatches first, then each part's flags.\n\n[[W06 - Compile with the Automation|Open step note \u2192]]",
+			"x": 0,
+			"y": 1768,
+			"width": 440,
+			"height": 470,
+			"color": "5"
+		},
+		{
+			"id": "r5",
+			"type": "text",
+			"text": "- Compiled package in `In-Progress Receiving\\`\n- PRF xlsx/pdf with Sections 2, 5, 6 filled\n- Manifest in Desktop `logs\\` (development aid only)",
+			"x": 500,
+			"y": 1768,
+			"width": 320,
+			"height": 180,
+			"color": "3"
+		},
+		{
+			"id": "r6",
+			"type": "text",
+			"text": "- Signed compiled package (inspector)",
+			"x": 500,
+			"y": 2236,
+			"width": 320,
+			"height": 72,
+			"color": "3"
+		},
+		{
+			"id": "p6",
+			"type": "text",
+			"text": "## W07 \u00b7 Engineer Review and Sign\n**Who:** QE / Engineering  \n**Where:** Adobe (compiled PDF)\n\n- Open the compiled package and resolve every flag.\n- Check the Section 2 answers; edit the Section 5 draft as needed.\n- Sign the inspector signature and date in Adobe.\n\n[[W07 - Engineer Review and Sign|Open step note \u2192]]",
+			"x": 0,
+			"y": 2308,
+			"width": 440,
+			"height": 244,
+			"color": "1"
+		},
+		{
+			"id": "c5_3",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 6.5 - Vendor Document Completeness Check.md",
+			"x": 1520,
+			"y": 1731,
+			"width": 360,
+			"height": 95
+		},
+		{
+			"id": "c5_5",
+			"type": "file",
+			"file": "Project Map/01 Governance/Step 7 - Section 2 Determination (Fixed Rules).md",
+			"x": 1520,
+			"y": 1858,
+			"width": 360,
+			"height": 95
+		}
+	],
+	"edges": [
+		{
+			"id": "erc0",
+			"fromNode": "r0",
+			"fromSide": "right",
+			"toNode": "g0",
+			"toSide": "left"
+		},
+		{
+			"id": "epr0",
+			"fromNode": "p0",
+			"fromSide": "right",
+			"toNode": "r0",
+			"toSide": "left"
+		},
+		{
+			"id": "erc1",
+			"fromNode": "r1",
+			"fromSide": "right",
+			"toNode": "g1",
+			"toSide": "left",
+			"label": " produced by"
+		},
+		{
+			"id": "epr1",
+			"fromNode": "p1",
+			"fromSide": "right",
+			"toNode": "r1",
+			"toSide": "left"
+		},
+		{
+			"id": "en1",
+			"fromNode": "p0",
+			"fromSide": "bottom",
+			"toNode": "p1",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "erc2",
+			"fromNode": "r2",
+			"fromSide": "right",
+			"toNode": "g2",
+			"toSide": "left",
+			"label": " produced by"
+		},
+		{
+			"id": "epr2",
+			"fromNode": "p2",
+			"fromSide": "right",
+			"toNode": "r2",
+			"toSide": "left"
+		},
+		{
+			"id": "en2",
+			"fromNode": "p1",
+			"fromSide": "bottom",
+			"toNode": "p2",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "erc3",
+			"fromNode": "r3",
+			"fromSide": "right",
+			"toNode": "g3",
+			"toSide": "left",
+			"label": "produced by"
+		},
+		{
+			"id": "epr3",
+			"fromNode": "p3",
+			"fromSide": "right",
+			"toNode": "r3",
+			"toSide": "left"
+		},
+		{
+			"id": "en3",
+			"fromNode": "p2",
+			"fromSide": "bottom",
+			"toNode": "p3",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "erc4",
+			"fromNode": "r4",
+			"fromSide": "right",
+			"toNode": "g4",
+			"toSide": "left",
+			"label": " produced by"
+		},
+		{
+			"id": "epr4",
+			"fromNode": "p4",
+			"fromSide": "right",
+			"toNode": "r4",
+			"toSide": "left"
+		},
+		{
+			"id": "en4",
+			"fromNode": "p3",
+			"fromSide": "bottom",
+			"toNode": "p4",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "erc5",
+			"fromNode": "r5",
+			"fromSide": "right",
+			"toNode": "g5",
+			"toSide": "left",
+			"label": "produced by"
+		},
+		{
+			"id": "epr5",
+			"fromNode": "p5",
+			"fromSide": "right",
+			"toNode": "r5",
+			"toSide": "left"
+		},
+		{
+			"id": "en5",
+			"fromNode": "p4",
+			"fromSide": "bottom",
+			"toNode": "p5",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "erc6",
+			"fromNode": "r6",
+			"fromSide": "right",
+			"toNode": "g6",
+			"toSide": "left",
+			"label": " produced by"
+		},
+		{
+			"id": "epr6",
+			"fromNode": "p6",
+			"fromSide": "right",
+			"toNode": "r6",
+			"toSide": "left"
+		},
+		{
+			"id": "en6",
+			"fromNode": "p5",
+			"fromSide": "bottom",
+			"toNode": "p6",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "erc7",
+			"fromNode": "r7",
+			"fromSide": "right",
+			"toNode": "g7",
+			"toSide": "left",
+			"label": "produced by"
+		},
+		{
+			"id": "epr7",
+			"fromNode": "p7",
+			"fromSide": "right",
+			"toNode": "r7",
+			"toSide": "left"
+		},
+		{
+			"id": "en7",
+			"fromNode": "p6",
+			"fromSide": "bottom",
+			"toNode": "p7",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "epr8",
+			"fromNode": "p8",
+			"fromSide": "right",
+			"toNode": "r8",
+			"toSide": "left"
+		},
+		{
+			"id": "en8",
+			"fromNode": "p7",
+			"fromSide": "bottom",
+			"toNode": "p8",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "erc9",
+			"fromNode": "r9",
+			"fromSide": "right",
+			"toNode": "g9",
+			"toSide": "left"
+		},
+		{
+			"id": "epr9",
+			"fromNode": "p9",
+			"fromSide": "right",
+			"toNode": "r9",
+			"toSide": "left"
+		},
+		{
+			"id": "en9",
+			"fromNode": "p8",
+			"fromSide": "bottom",
+			"toNode": "p9",
+			"toSide": "top",
+			"label": "next"
+		},
+		{
+			"id": "erc8",
+			"fromNode": "r8",
+			"fromSide": "right",
+			"toNode": "g8",
+			"toSide": "left",
+			"label": " produced by"
+		}
+	]
+}

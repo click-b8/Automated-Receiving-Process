@@ -1,0 +1,9 @@
+{
+  "id": "receiving-dashboard",
+  "name": "Receiving Dashboard",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "ACME Medical receiving automation: live PO, part, signature and validation status, plus a navigator for every project file.",
+  "author": "ACME Medical QE (built with Claude)",
+  "isDesktopOnly": true
+}

@@ -1,0 +1,2869 @@
+{
+ "generated": "2026-10-20T10:30:00",
+ "scan_ok": true,
+ "roots": [
+  "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026"
+ ],
+ "summary": {
+  "po_folders": 152,
+  "po_processed": 62,
+  "po_filed": 48,
+  "po_partial": 2,
+  "po_progress": 12,
+  "po_prf_waiting": 2,
+  "parts": 124,
+  "parts_filed": 98,
+  "parts_awaiting": 26,
+  "not_in_matrix": 40,
+  "tc_total": 38,
+  "tc_pass": 30,
+  "must_total": 35,
+  "must_pass": 28,
+  "tc_by": {
+   "Pass": 30,
+   "Re-test required": 1,
+   "Not run": 5,
+   "On hold": 1,
+   "Proposed": 1
+  },
+  "oi_open": 14,
+  "oi_total": 31
+ },
+ "pos": [
+  {
+   "po": "PO26-1201",
+   "vendor": "Adatum Instruments",
+   "folder": "26-1201 - Adatum Instruments",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1201 - Adatum Instruments",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1109",
+     "status": "progress",
+     "compiled": 1783748967.249909,
+     "filed": null,
+     "mtime": 1783748967.249909,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1201 - Adatum Instruments\\In-Progress Receiving\\PO26-1201 Receiving Part 1 - SR90-1109.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1783748967.249909
+  },
+  {
+   "po": "PO26-1202",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1202 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1202 - Litware Anodizing",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1113",
+     "status": "filed",
+     "compiled": 1783913894.159009,
+     "filed": 1784000294.159009,
+     "mtime": 1784000294.159009,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1202 - Litware Anodizing\\Completed Receivings\\PO26-1202 Receiving Part 1 - SR90-1113.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1784000294.159009
+  },
+  {
+   "po": "PO26-1203",
+   "vendor": "Contoso Sterile Pack",
+   "folder": "26-1203 - Contoso Sterile Pack",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1203 - Contoso Sterile Pack",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1114",
+     "status": "filed",
+     "compiled": 1784005073.920881,
+     "filed": 1784437073.920881,
+     "mtime": 1784437073.920881,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1203 - Contoso Sterile Pack\\Completed Receivings\\PO26-1203 Receiving Part 1 - SR90-1114.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1784437073.920881
+  },
+  {
+   "po": "PO26-1204",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1204 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1204 - Litware Anodizing",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1121",
+     "status": "filed",
+     "compiled": 1784149704.152818,
+     "filed": 1784322504.152818,
+     "mtime": 1784322504.152818,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1204 - Litware Anodizing\\Completed Receivings\\PO26-1204 Receiving Part 1 - SR90-1121.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1784322504.152818
+  },
+  {
+   "po": "PO26-1205",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1205 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1205 - Fabrikam Biologics",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1127",
+     "status": "filed",
+     "compiled": 1784285789.74586,
+     "filed": 1784372189.74586,
+     "mtime": 1784372189.74586,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1205 - Fabrikam Biologics\\Completed Receivings\\PO26-1205 Receiving Part 1 - SR90-1127.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1784372189.74586
+  },
+  {
+   "po": "PO26-1206",
+   "vendor": "Northwind Machining",
+   "folder": "26-1206 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1206 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1134",
+     "status": "filed",
+     "compiled": 1784456485.167212,
+     "filed": 1784715685.167212,
+     "mtime": 1784715685.167212,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1206 - Northwind Machining\\Completed Receivings\\PO26-1206 Receiving Part 1 - SR90-1134.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1142",
+     "status": "filed",
+     "compiled": 1784463685.167212,
+     "filed": 1784895685.167212,
+     "mtime": 1784895685.167212,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1206 - Northwind Machining\\Completed Receivings\\PO26-1206 Receiving Part 2 - SR90-1142.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 2,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1784895685.167212
+  },
+  {
+   "po": "PO26-1207",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1207 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1207 - Litware Anodizing",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1144",
+     "status": "filed",
+     "compiled": 1784596988.152836,
+     "filed": 1785028988.152836,
+     "mtime": 1785028988.152836,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1207 - Litware Anodizing\\Completed Receivings\\PO26-1207 Receiving Part 1 - SR90-1144.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1149",
+     "status": "filed",
+     "compiled": 1784604188.152836,
+     "filed": 1785036188.152836,
+     "mtime": 1785036188.152836,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1207 - Litware Anodizing\\Completed Receivings\\PO26-1207 Receiving Part 2 - SR90-1149.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1157",
+     "status": "filed",
+     "compiled": 1784611388.152836,
+     "filed": 1784870588.152836,
+     "mtime": 1784870588.152836,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1207 - Litware Anodizing\\Completed Receivings\\PO26-1207 Receiving Part 3 - SR90-1157.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1165",
+     "status": "filed",
+     "compiled": 1784618588.152836,
+     "filed": 1784877788.152836,
+     "mtime": 1784877788.152836,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1207 - Litware Anodizing\\Completed Receivings\\PO26-1207 Receiving Part 4 - SR90-1165.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 4,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1785036188.152836
+  },
+  {
+   "po": "PO26-1208",
+   "vendor": "Proseware Sterilization",
+   "folder": "26-1208 - Proseware Sterilization",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1208 - Proseware Sterilization",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1173",
+     "status": "filed",
+     "compiled": 1784685343.023686,
+     "filed": 1785030943.023686,
+     "mtime": 1785030943.023686,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1208 - Proseware Sterilization\\Completed Receivings\\PO26-1208 Receiving Part 1 - SR90-1173.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1785030943.023686
+  },
+  {
+   "po": "PO26-1209",
+   "vendor": "Adatum Instruments",
+   "folder": "26-1209 - Adatum Instruments",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1209 - Adatum Instruments",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1181",
+     "status": "filed",
+     "compiled": 1784828926.480354,
+     "filed": 1784915326.480354,
+     "mtime": 1784915326.480354,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1209 - Adatum Instruments\\Completed Receivings\\PO26-1209 Receiving Part 1 - SR90-1181.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1784915326.480354
+  },
+  {
+   "po": "PO26-1210",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1210 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1210 - Wingtip Swiss Turn",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1186",
+     "status": "filed",
+     "compiled": 1784969857.249447,
+     "filed": 1785401857.249447,
+     "mtime": 1785401857.249447,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1210 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1210 Receiving Part 1 - SR90-1186.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1194",
+     "status": "filed",
+     "compiled": 1784977057.249447,
+     "filed": 1785236257.249447,
+     "mtime": 1785236257.249447,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1210 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1210 Receiving Part 2 - SR90-1194.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1201",
+     "status": "filed",
+     "compiled": 1784984257.249447,
+     "filed": 1785243457.249447,
+     "mtime": 1785243457.249447,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1210 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1210 Receiving Part 3 - SR90-1201.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1785401857.249447
+  },
+  {
+   "po": "PO26-1211",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1211 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1211 - Fabrikam Biologics",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1206",
+     "status": "progress",
+     "compiled": 1785155362.923357,
+     "filed": null,
+     "mtime": 1785155362.923357,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1211 - Fabrikam Biologics\\In-Progress Receiving\\PO26-1211 Receiving Part 1 - SR90-1206.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1209",
+     "status": "progress",
+     "compiled": 1785162562.923357,
+     "filed": null,
+     "mtime": 1785162562.923357,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1211 - Fabrikam Biologics\\In-Progress Receiving\\PO26-1211 Receiving Part 2 - SR90-1209.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1785162562.923357
+  },
+  {
+   "po": "PO26-1212",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1212 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1212 - Wingtip Swiss Turn",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1214",
+     "status": "filed",
+     "compiled": 1785289345.953194,
+     "filed": 1785462145.953194,
+     "mtime": 1785462145.953194,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1212 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1212 Receiving Part 1 - SR90-1214.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1785462145.953194
+  },
+  {
+   "po": "PO26-1213",
+   "vendor": "Tailspin Polymers",
+   "folder": "26-1213 - Tailspin Polymers",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1213 - Tailspin Polymers",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1221",
+     "status": "filed",
+     "compiled": 1785406078.380913,
+     "filed": 1785578878.380913,
+     "mtime": 1785578878.380913,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1213 - Tailspin Polymers\\Completed Receivings\\PO26-1213 Receiving Part 1 - SR90-1221.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1224",
+     "status": "filed",
+     "compiled": 1785413278.380913,
+     "filed": 1785499678.380913,
+     "mtime": 1785499678.380913,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1213 - Tailspin Polymers\\Completed Receivings\\PO26-1213 Receiving Part 2 - SR90-1224.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1227",
+     "status": "filed",
+     "compiled": 1785420478.380913,
+     "filed": 1785593278.380913,
+     "mtime": 1785593278.380913,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1213 - Tailspin Polymers\\Completed Receivings\\PO26-1213 Receiving Part 3 - SR90-1227.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1785593278.380913
+  },
+  {
+   "po": "PO26-1214",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1214 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1214 - Wingtip Swiss Turn",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1228",
+     "status": "filed",
+     "compiled": 1785529299.729278,
+     "filed": 1785702099.729278,
+     "mtime": 1785702099.729278,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1214 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1214 Receiving Part 1 - SR90-1228.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1235",
+     "status": "filed",
+     "compiled": 1785536499.729278,
+     "filed": 1785968499.729278,
+     "mtime": 1785968499.729278,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1214 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1214 Receiving Part 2 - SR90-1235.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1241",
+     "status": "filed",
+     "compiled": 1785543699.729278,
+     "filed": 1785975699.729278,
+     "mtime": 1785975699.729278,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1214 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1214 Receiving Part 3 - SR90-1241.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1247",
+     "status": "filed",
+     "compiled": 1785550899.729278,
+     "filed": 1785723699.729278,
+     "mtime": 1785723699.729278,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1214 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1214 Receiving Part 4 - SR90-1247.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 4,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1785975699.729278
+  },
+  {
+   "po": "PO26-1215",
+   "vendor": "Northwind Machining",
+   "folder": "26-1215 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1215 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1256",
+     "status": "filed",
+     "compiled": 1785640720.347931,
+     "filed": 1785986320.347931,
+     "mtime": 1785986320.347931,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1215 - Northwind Machining\\Completed Receivings\\PO26-1215 Receiving Part 1 - SR90-1256.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1263",
+     "status": "filed",
+     "compiled": 1785647920.347931,
+     "filed": 1785993520.347931,
+     "mtime": 1785993520.347931,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1215 - Northwind Machining\\Completed Receivings\\PO26-1215 Receiving Part 2 - SR90-1263.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 2,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1785993520.347931
+  },
+  {
+   "po": "PO26-1216",
+   "vendor": "Proseware Sterilization",
+   "folder": "26-1216 - Proseware Sterilization",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1216 - Proseware Sterilization",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1271",
+     "status": "filed",
+     "compiled": 1785840211.335954,
+     "filed": 1786013011.335954,
+     "mtime": 1786013011.335954,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1216 - Proseware Sterilization\\Completed Receivings\\PO26-1216 Receiving Part 1 - SR90-1271.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1786013011.335954
+  },
+  {
+   "po": "PO26-1217",
+   "vendor": "Contoso Sterile Pack",
+   "folder": "26-1217 - Contoso Sterile Pack",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1217 - Contoso Sterile Pack",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1277",
+     "status": "filed",
+     "compiled": 1785945949.896257,
+     "filed": 1786377949.896257,
+     "mtime": 1786377949.896257,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1217 - Contoso Sterile Pack\\Completed Receivings\\PO26-1217 Receiving Part 1 - SR90-1277.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1786377949.896257
+  },
+  {
+   "po": "PO26-1218",
+   "vendor": "Proseware Sterilization",
+   "folder": "26-1218 - Proseware Sterilization",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1218 - Proseware Sterilization",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1283",
+     "status": "filed",
+     "compiled": 1786078347.012415,
+     "filed": 1786423947.012415,
+     "mtime": 1786423947.012415,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1218 - Proseware Sterilization\\Completed Receivings\\PO26-1218 Receiving Part 1 - SR90-1283.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1786423947.012415
+  },
+  {
+   "po": "PO26-1219",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1219 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1219 - Wingtip Swiss Turn",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1285",
+     "status": "filed",
+     "compiled": 1786229596.685686,
+     "filed": 1786488796.685686,
+     "mtime": 1786488796.685686,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1219 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1219 Receiving Part 1 - SR90-1285.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1290",
+     "status": "filed",
+     "compiled": 1786236796.685686,
+     "filed": 1786582396.685686,
+     "mtime": 1786582396.685686,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1219 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1219 Receiving Part 2 - SR90-1290.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 2,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": true,
+   "last": 1786582396.685686
+  },
+  {
+   "po": "PO26-1220",
+   "vendor": "Northwind Machining",
+   "folder": "26-1220 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1220 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1293",
+     "status": "filed",
+     "compiled": 1786327474.846504,
+     "filed": 1786759474.846504,
+     "mtime": 1786759474.846504,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1220 - Northwind Machining\\Completed Receivings\\PO26-1220 Receiving Part 1 - SR90-1293.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1786759474.846504
+  },
+  {
+   "po": "PO26-1221",
+   "vendor": "Tailspin Polymers",
+   "folder": "26-1221 - Tailspin Polymers",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1221 - Tailspin Polymers",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1298",
+     "status": "filed",
+     "compiled": 1786473288.717383,
+     "filed": 1786905288.717383,
+     "mtime": 1786905288.717383,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1221 - Tailspin Polymers\\Completed Receivings\\PO26-1221 Receiving Part 1 - SR90-1298.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1304",
+     "status": "filed",
+     "compiled": 1786480488.717383,
+     "filed": 1786653288.717383,
+     "mtime": 1786653288.717383,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1221 - Tailspin Polymers\\Completed Receivings\\PO26-1221 Receiving Part 2 - SR90-1304.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1310",
+     "status": "filed",
+     "compiled": 1786487688.717383,
+     "filed": 1786660488.717383,
+     "mtime": 1786660488.717383,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1221 - Tailspin Polymers\\Completed Receivings\\PO26-1221 Receiving Part 3 - SR90-1310.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1786905288.717383
+  },
+  {
+   "po": "PO26-1222",
+   "vendor": "Adatum Instruments",
+   "folder": "26-1222 - Adatum Instruments",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1222 - Adatum Instruments",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1314",
+     "status": "filed",
+     "compiled": 1786666849.199444,
+     "filed": 1786839649.199444,
+     "mtime": 1786839649.199444,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1222 - Adatum Instruments\\Completed Receivings\\PO26-1222 Receiving Part 1 - SR90-1314.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1321",
+     "status": "filed",
+     "compiled": 1786674049.199444,
+     "filed": 1786846849.199444,
+     "mtime": 1786846849.199444,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1222 - Adatum Instruments\\Completed Receivings\\PO26-1222 Receiving Part 2 - SR90-1321.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1325",
+     "status": "filed",
+     "compiled": 1786681249.199444,
+     "filed": 1787113249.199444,
+     "mtime": 1787113249.199444,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1222 - Adatum Instruments\\Completed Receivings\\PO26-1222 Receiving Part 3 - SR90-1325.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1787113249.199444
+  },
+  {
+   "po": "PO26-1223",
+   "vendor": "Northwind Machining",
+   "folder": "26-1223 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1223 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1331",
+     "status": "filed",
+     "compiled": 1786800218.238226,
+     "filed": 1787145818.238226,
+     "mtime": 1787145818.238226,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1223 - Northwind Machining\\Completed Receivings\\PO26-1223 Receiving Part 1 - SR90-1331.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1337",
+     "status": "filed",
+     "compiled": 1786807418.238226,
+     "filed": 1787066618.238226,
+     "mtime": 1787066618.238226,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1223 - Northwind Machining\\Completed Receivings\\PO26-1223 Receiving Part 2 - SR90-1337.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1339",
+     "status": "filed",
+     "compiled": 1786814618.238226,
+     "filed": 1786987418.238226,
+     "mtime": 1786987418.238226,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1223 - Northwind Machining\\Completed Receivings\\PO26-1223 Receiving Part 3 - SR90-1339.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1341",
+     "status": "filed",
+     "compiled": 1786821818.238226,
+     "filed": 1786994618.238226,
+     "mtime": 1786994618.238226,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1223 - Northwind Machining\\Completed Receivings\\PO26-1223 Receiving Part 4 - SR90-1341.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 4,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1787145818.238226
+  },
+  {
+   "po": "PO26-1224",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1224 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1224 - Wingtip Swiss Turn",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1342",
+     "status": "filed",
+     "compiled": 1786877474.486654,
+     "filed": 1787223074.486654,
+     "mtime": 1787223074.486654,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1224 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1224 Receiving Part 1 - SR90-1342.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1348",
+     "status": "filed",
+     "compiled": 1786884674.486654,
+     "filed": 1786971074.486654,
+     "mtime": 1786971074.486654,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1224 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1224 Receiving Part 2 - SR90-1348.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 2,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": true,
+   "last": 1787223074.486654
+  },
+  {
+   "po": "PO26-1225",
+   "vendor": "Proseware Sterilization",
+   "folder": "26-1225 - Proseware Sterilization",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1225 - Proseware Sterilization",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1351",
+     "status": "filed",
+     "compiled": 1787039367.006215,
+     "filed": 1787384967.006215,
+     "mtime": 1787384967.006215,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1225 - Proseware Sterilization\\Completed Receivings\\PO26-1225 Receiving Part 1 - SR90-1351.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1357",
+     "status": "filed",
+     "compiled": 1787046567.006215,
+     "filed": 1787132967.006215,
+     "mtime": 1787132967.006215,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1225 - Proseware Sterilization\\Completed Receivings\\PO26-1225 Receiving Part 2 - SR90-1357.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1364",
+     "status": "filed",
+     "compiled": 1787053767.006215,
+     "filed": 1787399367.006215,
+     "mtime": 1787399367.006215,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1225 - Proseware Sterilization\\Completed Receivings\\PO26-1225 Receiving Part 3 - SR90-1364.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1371",
+     "status": "filed",
+     "compiled": 1787060967.006215,
+     "filed": 1787147367.006215,
+     "mtime": 1787147367.006215,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1225 - Proseware Sterilization\\Completed Receivings\\PO26-1225 Receiving Part 4 - SR90-1371.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 4,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1787399367.006215
+  },
+  {
+   "po": "PO26-1226",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1226 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1226 - Fabrikam Biologics",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1374",
+     "status": "filed",
+     "compiled": 1787226020.579487,
+     "filed": 1787658020.579487,
+     "mtime": 1787658020.579487,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1226 - Fabrikam Biologics\\Completed Receivings\\PO26-1226 Receiving Part 1 - SR90-1374.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1787658020.579487
+  },
+  {
+   "po": "PO26-1227",
+   "vendor": "Adatum Instruments",
+   "folder": "26-1227 - Adatum Instruments",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1227 - Adatum Instruments",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1375",
+     "status": "filed",
+     "compiled": 1787329915.7722,
+     "filed": 1787416315.7722,
+     "mtime": 1787416315.7722,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1227 - Adatum Instruments\\Completed Receivings\\PO26-1227 Receiving Part 1 - SR90-1375.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1787416315.7722
+  },
+  {
+   "po": "PO26-1228",
+   "vendor": "Proseware Sterilization",
+   "folder": "26-1228 - Proseware Sterilization",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1228 - Proseware Sterilization",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1376",
+     "status": "filed",
+     "compiled": 1787498728.809812,
+     "filed": 1787757928.809812,
+     "mtime": 1787757928.809812,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1228 - Proseware Sterilization\\Completed Receivings\\PO26-1228 Receiving Part 1 - SR90-1376.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1380",
+     "status": "filed",
+     "compiled": 1787505928.809812,
+     "filed": 1787765128.809812,
+     "mtime": 1787765128.809812,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1228 - Proseware Sterilization\\Completed Receivings\\PO26-1228 Receiving Part 2 - SR90-1380.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1389",
+     "status": "filed",
+     "compiled": 1787513128.809812,
+     "filed": 1787685928.809812,
+     "mtime": 1787685928.809812,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1228 - Proseware Sterilization\\Completed Receivings\\PO26-1228 Receiving Part 3 - SR90-1389.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1395",
+     "status": "filed",
+     "compiled": 1787520328.809812,
+     "filed": 1787779528.809812,
+     "mtime": 1787779528.809812,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1228 - Proseware Sterilization\\Completed Receivings\\PO26-1228 Receiving Part 4 - SR90-1395.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 4,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1787779528.809812
+  },
+  {
+   "po": "PO26-1229",
+   "vendor": "Northwind Machining",
+   "folder": "26-1229 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1229 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1404",
+     "status": "filed",
+     "compiled": 1787623233.06033,
+     "filed": 1787968833.06033,
+     "mtime": 1787968833.06033,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1229 - Northwind Machining\\Completed Receivings\\PO26-1229 Receiving Part 1 - SR90-1404.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1413",
+     "status": "filed",
+     "compiled": 1787630433.06033,
+     "filed": 1787803233.06033,
+     "mtime": 1787803233.06033,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1229 - Northwind Machining\\Completed Receivings\\PO26-1229 Receiving Part 2 - SR90-1413.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1422",
+     "status": "filed",
+     "compiled": 1787637633.06033,
+     "filed": 1787810433.06033,
+     "mtime": 1787810433.06033,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1229 - Northwind Machining\\Completed Receivings\\PO26-1229 Receiving Part 3 - SR90-1422.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1787968833.06033
+  },
+  {
+   "po": "PO26-1230",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1230 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1230 - Wingtip Swiss Turn",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1425",
+     "status": "progress",
+     "compiled": 1787776219.47854,
+     "filed": null,
+     "mtime": 1787776219.47854,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1230 - Wingtip Swiss Turn\\In-Progress Receiving\\PO26-1230 Receiving Part 1 - SR90-1425.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1428",
+     "status": "progress",
+     "compiled": 1787783419.47854,
+     "filed": null,
+     "mtime": 1787783419.47854,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1230 - Wingtip Swiss Turn\\In-Progress Receiving\\PO26-1230 Receiving Part 2 - SR90-1428.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1431",
+     "status": "progress",
+     "compiled": 1787790619.47854,
+     "filed": null,
+     "mtime": 1787790619.47854,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1230 - Wingtip Swiss Turn\\In-Progress Receiving\\PO26-1230 Receiving Part 3 - SR90-1431.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1439",
+     "status": "progress",
+     "compiled": 1787797819.47854,
+     "filed": null,
+     "mtime": 1787797819.47854,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1230 - Wingtip Swiss Turn\\In-Progress Receiving\\PO26-1230 Receiving Part 4 - SR90-1439.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1787797819.47854
+  },
+  {
+   "po": "PO26-1231",
+   "vendor": "Northwind Machining",
+   "folder": "26-1231 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1231 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1447",
+     "status": "filed",
+     "compiled": 1787871326.570087,
+     "filed": 1787957726.570087,
+     "mtime": 1787957726.570087,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1231 - Northwind Machining\\Completed Receivings\\PO26-1231 Receiving Part 1 - SR90-1447.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": true,
+   "last": 1787957726.570087
+  },
+  {
+   "po": "PO26-1232",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1232 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1232 - Litware Anodizing",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1455",
+     "status": "filed",
+     "compiled": 1788064874.015497,
+     "filed": 1788496874.015497,
+     "mtime": 1788496874.015497,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1232 - Litware Anodizing\\Completed Receivings\\PO26-1232 Receiving Part 1 - SR90-1455.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1788496874.015497
+  },
+  {
+   "po": "PO26-1233",
+   "vendor": "Contoso Sterile Pack",
+   "folder": "26-1233 - Contoso Sterile Pack",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1233 - Contoso Sterile Pack",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1464",
+     "status": "filed",
+     "compiled": 1788178626.981732,
+     "filed": 1788351426.981732,
+     "mtime": 1788351426.981732,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1233 - Contoso Sterile Pack\\Completed Receivings\\PO26-1233 Receiving Part 1 - SR90-1464.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1469",
+     "status": "filed",
+     "compiled": 1788185826.981732,
+     "filed": 1788531426.981732,
+     "mtime": 1788531426.981732,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1233 - Contoso Sterile Pack\\Completed Receivings\\PO26-1233 Receiving Part 2 - SR90-1469.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 2,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1788531426.981732
+  },
+  {
+   "po": "PO26-1234",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1234 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1234 - Litware Anodizing",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1474",
+     "status": "filed",
+     "compiled": 1788299794.685992,
+     "filed": 1788731794.685992,
+     "mtime": 1788731794.685992,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1234 - Litware Anodizing\\Completed Receivings\\PO26-1234 Receiving Part 1 - SR90-1474.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1478",
+     "status": "filed",
+     "compiled": 1788306994.685992,
+     "filed": 1788652594.685992,
+     "mtime": 1788652594.685992,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1234 - Litware Anodizing\\Completed Receivings\\PO26-1234 Receiving Part 2 - SR90-1478.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1481",
+     "status": "filed",
+     "compiled": 1788314194.685992,
+     "filed": 1788659794.685992,
+     "mtime": 1788659794.685992,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1234 - Litware Anodizing\\Completed Receivings\\PO26-1234 Receiving Part 3 - SR90-1481.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1788731794.685992
+  },
+  {
+   "po": "PO26-1235",
+   "vendor": "Contoso Sterile Pack",
+   "folder": "26-1235 - Contoso Sterile Pack",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1235 - Contoso Sterile Pack",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1486",
+     "status": "filed",
+     "compiled": 1788462448.81127,
+     "filed": 1788548848.81127,
+     "mtime": 1788548848.81127,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1235 - Contoso Sterile Pack\\Completed Receivings\\PO26-1235 Receiving Part 1 - SR90-1486.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1489",
+     "status": "filed",
+     "compiled": 1788469648.81127,
+     "filed": 1788728848.81127,
+     "mtime": 1788728848.81127,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1235 - Contoso Sterile Pack\\Completed Receivings\\PO26-1235 Receiving Part 2 - SR90-1489.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1492",
+     "status": "filed",
+     "compiled": 1788476848.81127,
+     "filed": 1788736048.81127,
+     "mtime": 1788736048.81127,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1235 - Contoso Sterile Pack\\Completed Receivings\\PO26-1235 Receiving Part 3 - SR90-1492.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1788736048.81127
+  },
+  {
+   "po": "PO26-1236",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1236 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1236 - Litware Anodizing",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1500",
+     "status": "filed",
+     "compiled": 1788539183.643261,
+     "filed": 1788711983.643261,
+     "mtime": 1788711983.643261,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1236 - Litware Anodizing\\Completed Receivings\\PO26-1236 Receiving Part 1 - SR90-1500.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1504",
+     "status": "filed",
+     "compiled": 1788546383.643261,
+     "filed": 1788719183.643261,
+     "mtime": 1788719183.643261,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1236 - Litware Anodizing\\Completed Receivings\\PO26-1236 Receiving Part 2 - SR90-1504.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1511",
+     "status": "filed",
+     "compiled": 1788553583.643261,
+     "filed": 1788985583.643261,
+     "mtime": 1788985583.643261,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1236 - Litware Anodizing\\Completed Receivings\\PO26-1236 Receiving Part 3 - SR90-1511.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1788985583.643261
+  },
+  {
+   "po": "PO26-1237",
+   "vendor": "Adatum Instruments",
+   "folder": "26-1237 - Adatum Instruments",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1237 - Adatum Instruments",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1517",
+     "status": "filed",
+     "compiled": 1788751754.436142,
+     "filed": 1789183754.436142,
+     "mtime": 1789183754.436142,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1237 - Adatum Instruments\\Completed Receivings\\PO26-1237 Receiving Part 1 - SR90-1517.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1789183754.436142
+  },
+  {
+   "po": "PO26-1238",
+   "vendor": "Proseware Sterilization",
+   "folder": "26-1238 - Proseware Sterilization",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1238 - Proseware Sterilization",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1519",
+     "status": "filed",
+     "compiled": 1788853253.714789,
+     "filed": 1788939653.714789,
+     "mtime": 1788939653.714789,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1238 - Proseware Sterilization\\Completed Receivings\\PO26-1238 Receiving Part 1 - SR90-1519.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1788939653.714789
+  },
+  {
+   "po": "PO26-1239",
+   "vendor": "Contoso Sterile Pack",
+   "folder": "26-1239 - Contoso Sterile Pack",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1239 - Contoso Sterile Pack",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1522",
+     "status": "progress",
+     "compiled": 1789013255.24687,
+     "filed": null,
+     "mtime": 1789013255.24687,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1239 - Contoso Sterile Pack\\In-Progress Receiving\\PO26-1239 Receiving Part 1 - SR90-1522.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1789013255.24687
+  },
+  {
+   "po": "PO26-1240",
+   "vendor": "Proseware Sterilization",
+   "folder": "26-1240 - Proseware Sterilization",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1240 - Proseware Sterilization",
+   "status": "partial",
+   "parts": [
+    {
+     "part": "SR90-1527",
+     "status": "filed",
+     "compiled": 1789095693.846282,
+     "filed": 1789441293.846282,
+     "mtime": 1789441293.846282,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1240 - Proseware Sterilization\\Completed Receivings\\PO26-1240 Receiving Part 1 - SR90-1527.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1530",
+     "status": "progress",
+     "compiled": 1789102893.846282,
+     "filed": null,
+     "mtime": 1789102893.846282,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1240 - Proseware Sterilization\\In-Progress Receiving\\PO26-1240 Receiving Part 2 - SR90-1530.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1539",
+     "status": "progress",
+     "compiled": 1789110093.846282,
+     "filed": null,
+     "mtime": 1789110093.846282,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1240 - Proseware Sterilization\\In-Progress Receiving\\PO26-1240 Receiving Part 3 - SR90-1539.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1548",
+     "status": "progress",
+     "compiled": 1789117293.846282,
+     "filed": null,
+     "mtime": 1789117293.846282,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1240 - Proseware Sterilization\\In-Progress Receiving\\PO26-1240 Receiving Part 4 - SR90-1548.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1789441293.846282
+  },
+  {
+   "po": "PO26-1241",
+   "vendor": "Contoso Sterile Pack",
+   "folder": "26-1241 - Contoso Sterile Pack",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1241 - Contoso Sterile Pack",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1555",
+     "status": "progress",
+     "compiled": 1789307709.709325,
+     "filed": null,
+     "mtime": 1789307709.709325,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1241 - Contoso Sterile Pack\\In-Progress Receiving\\PO26-1241 Receiving Part 1 - SR90-1555.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": true,
+   "last": 1789307709.709325
+  },
+  {
+   "po": "PO26-1242",
+   "vendor": "Northwind Machining",
+   "folder": "26-1242 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1242 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1559",
+     "status": "filed",
+     "compiled": 1789443267.904357,
+     "filed": 1789529667.904357,
+     "mtime": 1789529667.904357,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1242 - Northwind Machining\\Completed Receivings\\PO26-1242 Receiving Part 1 - SR90-1559.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1564",
+     "status": "filed",
+     "compiled": 1789450467.904357,
+     "filed": 1789536867.904357,
+     "mtime": 1789536867.904357,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1242 - Northwind Machining\\Completed Receivings\\PO26-1242 Receiving Part 2 - SR90-1564.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1572",
+     "status": "filed",
+     "compiled": 1789457667.904357,
+     "filed": 1789544067.904357,
+     "mtime": 1789544067.904357,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1242 - Northwind Machining\\Completed Receivings\\PO26-1242 Receiving Part 3 - SR90-1572.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1789544067.904357
+  },
+  {
+   "po": "PO26-1243",
+   "vendor": "Tailspin Polymers",
+   "folder": "26-1243 - Tailspin Polymers",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1243 - Tailspin Polymers",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1576",
+     "status": "progress",
+     "compiled": 1789577994.977289,
+     "filed": null,
+     "mtime": 1789577994.977289,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1243 - Tailspin Polymers\\In-Progress Receiving\\PO26-1243 Receiving Part 1 - SR90-1576.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1578",
+     "status": "progress",
+     "compiled": 1789585194.977289,
+     "filed": null,
+     "mtime": 1789585194.977289,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1243 - Tailspin Polymers\\In-Progress Receiving\\PO26-1243 Receiving Part 2 - SR90-1578.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": true,
+   "last": 1789585194.977289
+  },
+  {
+   "po": "PO26-1244",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1244 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1244 - Fabrikam Biologics",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1587",
+     "status": "progress",
+     "compiled": 1789646853.868832,
+     "filed": null,
+     "mtime": 1789646853.868832,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1244 - Fabrikam Biologics\\In-Progress Receiving\\PO26-1244 Receiving Part 1 - SR90-1587.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1789646853.868832
+  },
+  {
+   "po": "PO26-1245",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1245 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1245 - Fabrikam Biologics",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1592",
+     "status": "filed",
+     "compiled": 1789835659.111688,
+     "filed": 1789922059.111688,
+     "mtime": 1789922059.111688,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1245 - Fabrikam Biologics\\Completed Receivings\\PO26-1245 Receiving Part 1 - SR90-1592.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1789922059.111688
+  },
+  {
+   "po": "PO26-1246",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1246 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1246 - Litware Anodizing",
+   "status": "waiting",
+   "parts": [],
+   "filed": 0,
+   "prf_waiting": [
+    "PRF SR90-1651 Rev A.xlsx"
+   ],
+   "prf_files": [],
+   "how": [],
+   "in_matrix": false,
+   "last": 1789962860.680832
+  },
+  {
+   "po": "PO26-1247",
+   "vendor": "Proseware Sterilization",
+   "folder": "26-1247 - Proseware Sterilization",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1247 - Proseware Sterilization",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1605",
+     "status": "filed",
+     "compiled": 1790115527.54448,
+     "filed": 1790374727.54448,
+     "mtime": 1790374727.54448,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1247 - Proseware Sterilization\\Completed Receivings\\PO26-1247 Receiving Part 1 - SR90-1605.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1609",
+     "status": "filed",
+     "compiled": 1790122727.54448,
+     "filed": 1790295527.54448,
+     "mtime": 1790295527.54448,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1247 - Proseware Sterilization\\Completed Receivings\\PO26-1247 Receiving Part 2 - SR90-1609.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 2,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1790374727.54448
+  },
+  {
+   "po": "PO26-1248",
+   "vendor": "Northwind Machining",
+   "folder": "26-1248 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1248 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1614",
+     "status": "filed",
+     "compiled": 1790269143.674589,
+     "filed": 1790614743.674589,
+     "mtime": 1790614743.674589,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1248 - Northwind Machining\\Completed Receivings\\PO26-1248 Receiving Part 1 - SR90-1614.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1617",
+     "status": "filed",
+     "compiled": 1790276343.674589,
+     "filed": 1790362743.674589,
+     "mtime": 1790362743.674589,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1248 - Northwind Machining\\Completed Receivings\\PO26-1248 Receiving Part 2 - SR90-1617.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1619",
+     "status": "filed",
+     "compiled": 1790283543.674589,
+     "filed": 1790629143.674589,
+     "mtime": 1790629143.674589,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1248 - Northwind Machining\\Completed Receivings\\PO26-1248 Receiving Part 3 - SR90-1619.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1628",
+     "status": "filed",
+     "compiled": 1790290743.674589,
+     "filed": 1790549943.674589,
+     "mtime": 1790549943.674589,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1248 - Northwind Machining\\Completed Receivings\\PO26-1248 Receiving Part 4 - SR90-1628.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 4,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1790629143.674589
+  },
+  {
+   "po": "PO26-1249",
+   "vendor": "Northwind Machining",
+   "folder": "26-1249 - Northwind Machining",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1249 - Northwind Machining",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1629",
+     "status": "filed",
+     "compiled": 1790402585.58473,
+     "filed": 1790661785.58473,
+     "mtime": 1790661785.58473,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1249 - Northwind Machining\\Completed Receivings\\PO26-1249 Receiving Part 1 - SR90-1629.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1635",
+     "status": "filed",
+     "compiled": 1790409785.58473,
+     "filed": 1790668985.58473,
+     "mtime": 1790668985.58473,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1249 - Northwind Machining\\Completed Receivings\\PO26-1249 Receiving Part 2 - SR90-1635.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 2,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1790668985.58473
+  },
+  {
+   "po": "PO26-1250",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1250 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1250 - Litware Anodizing",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1641",
+     "status": "filed",
+     "compiled": 1790473406.391067,
+     "filed": 1790646206.391067,
+     "mtime": 1790646206.391067,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1250 - Litware Anodizing\\Completed Receivings\\PO26-1250 Receiving Part 1 - SR90-1641.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1790646206.391067
+  },
+  {
+   "po": "PO26-1251",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1251 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1251 - Wingtip Swiss Turn",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1650",
+     "status": "filed",
+     "compiled": 1790651641.189849,
+     "filed": 1790738041.189849,
+     "mtime": 1790738041.189849,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1251 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1251 Receiving Part 1 - SR90-1650.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1790738041.189849
+  },
+  {
+   "po": "PO26-1252",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1252 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1252 - Fabrikam Biologics",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1655",
+     "status": "filed",
+     "compiled": 1790782620.416753,
+     "filed": 1791041820.416753,
+     "mtime": 1791041820.416753,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1252 - Fabrikam Biologics\\Completed Receivings\\PO26-1252 Receiving Part 1 - SR90-1655.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1659",
+     "status": "filed",
+     "compiled": 1790789820.416753,
+     "filed": 1790876220.416753,
+     "mtime": 1790876220.416753,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1252 - Fabrikam Biologics\\Completed Receivings\\PO26-1252 Receiving Part 2 - SR90-1659.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 2,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1791041820.416753
+  },
+  {
+   "po": "PO26-1253",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1253 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1253 - Fabrikam Biologics",
+   "status": "partial",
+   "parts": [
+    {
+     "part": "SR90-1666",
+     "status": "filed",
+     "compiled": 1790894421.978833,
+     "filed": 1791153621.978833,
+     "mtime": 1791153621.978833,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1253 - Fabrikam Biologics\\Completed Receivings\\PO26-1253 Receiving Part 1 - SR90-1666.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1674",
+     "status": "progress",
+     "compiled": 1790901621.978833,
+     "filed": null,
+     "mtime": 1790901621.978833,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1253 - Fabrikam Biologics\\In-Progress Receiving\\PO26-1253 Receiving Part 2 - SR90-1674.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1677",
+     "status": "progress",
+     "compiled": 1790908821.978833,
+     "filed": null,
+     "mtime": 1790908821.978833,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1253 - Fabrikam Biologics\\In-Progress Receiving\\PO26-1253 Receiving Part 3 - SR90-1677.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1791153621.978833
+  },
+  {
+   "po": "PO26-1254",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1254 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1254 - Fabrikam Biologics",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1686",
+     "status": "progress",
+     "compiled": 1791038532.343374,
+     "filed": null,
+     "mtime": 1791038532.343374,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1254 - Fabrikam Biologics\\In-Progress Receiving\\PO26-1254 Receiving Part 1 - SR90-1686.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1791038532.343374
+  },
+  {
+   "po": "PO26-1255",
+   "vendor": "Fabrikam Biologics",
+   "folder": "26-1255 - Fabrikam Biologics",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1255 - Fabrikam Biologics",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1687",
+     "status": "progress",
+     "compiled": 1791182992.277503,
+     "filed": null,
+     "mtime": 1791182992.277503,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1255 - Fabrikam Biologics\\In-Progress Receiving\\PO26-1255 Receiving Part 1 - SR90-1687.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1691",
+     "status": "progress",
+     "compiled": 1791190192.277503,
+     "filed": null,
+     "mtime": 1791190192.277503,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1255 - Fabrikam Biologics\\In-Progress Receiving\\PO26-1255 Receiving Part 2 - SR90-1691.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1791190192.277503
+  },
+  {
+   "po": "PO26-1256",
+   "vendor": "Adatum Instruments",
+   "folder": "26-1256 - Adatum Instruments",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1256 - Adatum Instruments",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1692",
+     "status": "progress",
+     "compiled": 1791353740.181914,
+     "filed": null,
+     "mtime": 1791353740.181914,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1256 - Adatum Instruments\\In-Progress Receiving\\PO26-1256 Receiving Part 1 - SR90-1692.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1791353740.181914
+  },
+  {
+   "po": "PO26-1257",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1257 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1257 - Litware Anodizing",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1694",
+     "status": "progress",
+     "compiled": 1791501728.293889,
+     "filed": null,
+     "mtime": 1791501728.293889,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1257 - Litware Anodizing\\In-Progress Receiving\\PO26-1257 Receiving Part 1 - SR90-1694.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1703",
+     "status": "progress",
+     "compiled": 1791508928.293889,
+     "filed": null,
+     "mtime": 1791508928.293889,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1257 - Litware Anodizing\\In-Progress Receiving\\PO26-1257 Receiving Part 2 - SR90-1703.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": true,
+   "last": 1791508928.293889
+  },
+  {
+   "po": "PO26-1258",
+   "vendor": "Contoso Sterile Pack",
+   "folder": "26-1258 - Contoso Sterile Pack",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1258 - Contoso Sterile Pack",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1705",
+     "status": "filed",
+     "compiled": 1791599101.488414,
+     "filed": 1791858301.488414,
+     "mtime": 1791858301.488414,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1258 - Contoso Sterile Pack\\Completed Receivings\\PO26-1258 Receiving Part 1 - SR90-1705.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1709",
+     "status": "filed",
+     "compiled": 1791606301.488414,
+     "filed": 1791779101.488414,
+     "mtime": 1791779101.488414,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1258 - Contoso Sterile Pack\\Completed Receivings\\PO26-1258 Receiving Part 2 - SR90-1709.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1713",
+     "status": "filed",
+     "compiled": 1791613501.488414,
+     "filed": 1791959101.488414,
+     "mtime": 1791959101.488414,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1258 - Contoso Sterile Pack\\Completed Receivings\\PO26-1258 Receiving Part 3 - SR90-1713.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1791959101.488414
+  },
+  {
+   "po": "PO26-1259",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1259 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1259 - Wingtip Swiss Turn",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1717",
+     "status": "filed",
+     "compiled": 1791776175.623996,
+     "filed": 1791862575.623996,
+     "mtime": 1791862575.623996,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1259 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1259 Receiving Part 1 - SR90-1717.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1720",
+     "status": "filed",
+     "compiled": 1791783375.623996,
+     "filed": 1792042575.623996,
+     "mtime": 1792042575.623996,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1259 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1259 Receiving Part 2 - SR90-1720.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1725",
+     "status": "filed",
+     "compiled": 1791790575.623996,
+     "filed": 1792049775.623996,
+     "mtime": 1792049775.623996,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1259 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1259 Receiving Part 3 - SR90-1725.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 3,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1792049775.623996
+  },
+  {
+   "po": "PO26-1260",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1260 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1260 - Wingtip Swiss Turn",
+   "status": "waiting",
+   "parts": [],
+   "filed": 0,
+   "prf_waiting": [
+    "PRF SR90-1777 Rev A.xlsx"
+   ],
+   "prf_files": [],
+   "how": [],
+   "in_matrix": false,
+   "last": 1791897267.048653
+  },
+  {
+   "po": "PO26-1261",
+   "vendor": "Tailspin Polymers",
+   "folder": "26-1261 - Tailspin Polymers",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1261 - Tailspin Polymers",
+   "status": "progress",
+   "parts": [
+    {
+     "part": "SR90-1735",
+     "status": "progress",
+     "compiled": 1792032851.316035,
+     "filed": null,
+     "mtime": 1792032851.316035,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1261 - Tailspin Polymers\\In-Progress Receiving\\PO26-1261 Receiving Part 1 - SR90-1735.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1737",
+     "status": "progress",
+     "compiled": 1792040051.316035,
+     "filed": null,
+     "mtime": 1792040051.316035,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1261 - Tailspin Polymers\\In-Progress Receiving\\PO26-1261 Receiving Part 2 - SR90-1737.pdf",
+     "prf": ""
+    },
+    {
+     "part": "SR90-1746",
+     "status": "progress",
+     "compiled": 1792047251.316035,
+     "filed": null,
+     "mtime": 1792047251.316035,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1261 - Tailspin Polymers\\In-Progress Receiving\\PO26-1261 Receiving Part 3 - SR90-1746.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 0,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": false,
+   "last": 1792047251.316035
+  },
+  {
+   "po": "PO26-1262",
+   "vendor": "Wingtip Swiss Turn",
+   "folder": "26-1262 - Wingtip Swiss Turn",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1262 - Wingtip Swiss Turn",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1755",
+     "status": "filed",
+     "compiled": 1792190699.520812,
+     "filed": 1792488600.0,
+     "mtime": 1792488600.0,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1262 - Wingtip Swiss Turn\\Completed Receivings\\PO26-1262 Receiving Part 1 - SR90-1755.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": false,
+   "last": 1792488600.0
+  },
+  {
+   "po": "PO26-1263",
+   "vendor": "Litware Anodizing",
+   "folder": "26-1263 - Litware Anodizing",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1263 - Litware Anodizing",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1764",
+     "status": "filed",
+     "compiled": 1792303720.787429,
+     "filed": 1792488600.0,
+     "mtime": 1792488600.0,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1263 - Litware Anodizing\\Completed Receivings\\PO26-1263 Receiving Part 1 - SR90-1764.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "edge-case script"
+   ],
+   "in_matrix": true,
+   "last": 1792488600.0
+  },
+  {
+   "po": "PO26-1264",
+   "vendor": "Tailspin Polymers",
+   "folder": "26-1264 - Tailspin Polymers",
+   "path": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1264 - Tailspin Polymers",
+   "status": "filed",
+   "parts": [
+    {
+     "part": "SR90-1772",
+     "status": "filed",
+     "compiled": 1792431431.679848,
+     "filed": 1792488600.0,
+     "mtime": 1792488600.0,
+     "file": "C:\\Users\\<you>\\Box\\Shared\\Purchase Orders\\2026\\26-1264 - Tailspin Polymers\\Completed Receivings\\PO26-1264 Receiving Part 1 - SR90-1772.pdf",
+     "prf": ""
+    }
+   ],
+   "filed": 1,
+   "prf_waiting": [],
+   "prf_files": [],
+   "how": [
+    "receive.py"
+   ],
+   "in_matrix": true,
+   "last": 1792488600.0
+  }
+ ],
+ "recent": [
+  {
+   "po": "PO26-1262",
+   "vendor": "Wingtip Swiss Turn",
+   "part": "SR90-1755",
+   "status": "filed",
+   "mtime": 1792488600.0
+  },
+  {
+   "po": "PO26-1263",
+   "vendor": "Litware Anodizing",
+   "part": "SR90-1764",
+   "status": "filed",
+   "mtime": 1792488600.0
+  },
+  {
+   "po": "PO26-1264",
+   "vendor": "Tailspin Polymers",
+   "part": "SR90-1772",
+   "status": "filed",
+   "mtime": 1792488600.0
+  },
+  {
+   "po": "PO26-1259",
+   "vendor": "Wingtip Swiss Turn",
+   "part": "SR90-1725",
+   "status": "filed",
+   "mtime": 1792049775.623996
+  },
+  {
+   "po": "PO26-1261",
+   "vendor": "Tailspin Polymers",
+   "part": "SR90-1746",
+   "status": "progress",
+   "mtime": 1792047251.316035
+  },
+  {
+   "po": "PO26-1259",
+   "vendor": "Wingtip Swiss Turn",
+   "part": "SR90-1720",
+   "status": "filed",
+   "mtime": 1792042575.623996
+  },
+  {
+   "po": "PO26-1261",
+   "vendor": "Tailspin Polymers",
+   "part": "SR90-1737",
+   "status": "progress",
+   "mtime": 1792040051.316035
+  },
+  {
+   "po": "PO26-1261",
+   "vendor": "Tailspin Polymers",
+   "part": "SR90-1735",
+   "status": "progress",
+   "mtime": 1792032851.316035
+  },
+  {
+   "po": "PO26-1258",
+   "vendor": "Contoso Sterile Pack",
+   "part": "SR90-1713",
+   "status": "filed",
+   "mtime": 1791959101.488414
+  },
+  {
+   "po": "PO26-1259",
+   "vendor": "Wingtip Swiss Turn",
+   "part": "SR90-1717",
+   "status": "filed",
+   "mtime": 1791862575.623996
+  },
+  {
+   "po": "PO26-1258",
+   "vendor": "Contoso Sterile Pack",
+   "part": "SR90-1705",
+   "status": "filed",
+   "mtime": 1791858301.488414
+  },
+  {
+   "po": "PO26-1258",
+   "vendor": "Contoso Sterile Pack",
+   "part": "SR90-1709",
+   "status": "filed",
+   "mtime": 1791779101.488414
+  },
+  {
+   "po": "PO26-1257",
+   "vendor": "Litware Anodizing",
+   "part": "SR90-1703",
+   "status": "progress",
+   "mtime": 1791508928.293889
+  },
+  {
+   "po": "PO26-1257",
+   "vendor": "Litware Anodizing",
+   "part": "SR90-1694",
+   "status": "progress",
+   "mtime": 1791501728.293889
+  },
+  {
+   "po": "PO26-1256",
+   "vendor": "Adatum Instruments",
+   "part": "SR90-1692",
+   "status": "progress",
+   "mtime": 1791353740.181914
+  },
+  {
+   "po": "PO26-1255",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1691",
+   "status": "progress",
+   "mtime": 1791190192.277503
+  },
+  {
+   "po": "PO26-1255",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1687",
+   "status": "progress",
+   "mtime": 1791182992.277503
+  },
+  {
+   "po": "PO26-1253",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1666",
+   "status": "filed",
+   "mtime": 1791153621.978833
+  },
+  {
+   "po": "PO26-1252",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1655",
+   "status": "filed",
+   "mtime": 1791041820.416753
+  },
+  {
+   "po": "PO26-1254",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1686",
+   "status": "progress",
+   "mtime": 1791038532.343374
+  },
+  {
+   "po": "PO26-1253",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1677",
+   "status": "progress",
+   "mtime": 1790908821.978833
+  },
+  {
+   "po": "PO26-1253",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1674",
+   "status": "progress",
+   "mtime": 1790901621.978833
+  },
+  {
+   "po": "PO26-1252",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1659",
+   "status": "filed",
+   "mtime": 1790876220.416753
+  },
+  {
+   "po": "PO26-1251",
+   "vendor": "Wingtip Swiss Turn",
+   "part": "SR90-1650",
+   "status": "filed",
+   "mtime": 1790738041.189849
+  },
+  {
+   "po": "PO26-1249",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1635",
+   "status": "filed",
+   "mtime": 1790668985.58473
+  },
+  {
+   "po": "PO26-1249",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1629",
+   "status": "filed",
+   "mtime": 1790661785.58473
+  },
+  {
+   "po": "PO26-1250",
+   "vendor": "Litware Anodizing",
+   "part": "SR90-1641",
+   "status": "filed",
+   "mtime": 1790646206.391067
+  },
+  {
+   "po": "PO26-1248",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1619",
+   "status": "filed",
+   "mtime": 1790629143.674589
+  },
+  {
+   "po": "PO26-1248",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1614",
+   "status": "filed",
+   "mtime": 1790614743.674589
+  },
+  {
+   "po": "PO26-1248",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1628",
+   "status": "filed",
+   "mtime": 1790549943.674589
+  },
+  {
+   "po": "PO26-1247",
+   "vendor": "Proseware Sterilization",
+   "part": "SR90-1605",
+   "status": "filed",
+   "mtime": 1790374727.54448
+  },
+  {
+   "po": "PO26-1248",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1617",
+   "status": "filed",
+   "mtime": 1790362743.674589
+  },
+  {
+   "po": "PO26-1247",
+   "vendor": "Proseware Sterilization",
+   "part": "SR90-1609",
+   "status": "filed",
+   "mtime": 1790295527.54448
+  },
+  {
+   "po": "PO26-1245",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1592",
+   "status": "filed",
+   "mtime": 1789922059.111688
+  },
+  {
+   "po": "PO26-1244",
+   "vendor": "Fabrikam Biologics",
+   "part": "SR90-1587",
+   "status": "progress",
+   "mtime": 1789646853.868832
+  },
+  {
+   "po": "PO26-1243",
+   "vendor": "Tailspin Polymers",
+   "part": "SR90-1578",
+   "status": "progress",
+   "mtime": 1789585194.977289
+  },
+  {
+   "po": "PO26-1243",
+   "vendor": "Tailspin Polymers",
+   "part": "SR90-1576",
+   "status": "progress",
+   "mtime": 1789577994.977289
+  },
+  {
+   "po": "PO26-1242",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1572",
+   "status": "filed",
+   "mtime": 1789544067.904357
+  },
+  {
+   "po": "PO26-1242",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1564",
+   "status": "filed",
+   "mtime": 1789536867.904357
+  },
+  {
+   "po": "PO26-1242",
+   "vendor": "Northwind Machining",
+   "part": "SR90-1559",
+   "status": "filed",
+   "mtime": 1789529667.904357
+  }
+ ],
+ "weekly": [
+  {
+   "week": "2026-07-06",
+   "compiled": 11,
+   "filed": 10
+  },
+  {
+   "week": "2026-07-13",
+   "compiled": 17,
+   "filed": 12
+  },
+  {
+   "week": "2026-07-20",
+   "compiled": 14,
+   "filed": 14
+  },
+  {
+   "week": "2026-07-27",
+   "compiled": 15,
+   "filed": 12
+  },
+  {
+   "week": "2026-08-03",
+   "compiled": 4,
+   "filed": 1
+  },
+  {
+   "week": "2026-08-10",
+   "compiled": 21,
+   "filed": 16
+  },
+  {
+   "week": "2026-08-17",
+   "compiled": 10,
+   "filed": 12
+  },
+  {
+   "week": "2026-08-24",
+   "compiled": 5,
+   "filed": 2
+  },
+  {
+   "week": "2026-08-31",
+   "compiled": 18,
+   "filed": 12
+  },
+  {
+   "week": "2026-09-07",
+   "compiled": 8,
+   "filed": 7
+  },
+  {
+   "week": "2026-09-14",
+   "compiled": 19,
+   "filed": 22
+  },
+  {
+   "week": "2026-09-21",
+   "compiled": 21,
+   "filed": 22
+  },
+  {
+   "week": "2026-09-28",
+   "compiled": 9,
+   "filed": 5
+  },
+  {
+   "week": "2026-10-05",
+   "compiled": 17,
+   "filed": 15
+  },
+  {
+   "week": "2026-10-12",
+   "compiled": 13,
+   "filed": 12
+  },
+  {
+   "week": "2026-10-19",
+   "compiled": 12,
+   "filed": 2
+  }
+ ],
+ "matrix": [
+  {
+   "id": "TC-01",
+   "scenario": "Happy path \u2014 single part, single batch",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1201"
+  },
+  {
+   "id": "TC-02",
+   "scenario": "Multi-part PO, single batch",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1202"
+  },
+  {
+   "id": "TC-03",
+   "scenario": "Multi-batch / partial receiving (different receiving dates)",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1203"
+  },
+  {
+   "id": "TC-04",
+   "scenario": "Same part + revision across two batches \u2014 lot-suffix disambiguation",
+   "must": true,
+   "result": "Re-test required",
+   "ref": ""
+  },
+  {
+   "id": "TC-05",
+   "scenario": "Contract-manufacturer off-the-shelf part (traveler present)",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1205"
+  },
+  {
+   "id": "TC-06",
+   "scenario": "Contract-manufacturer off-the-shelf part, no traveler provided",
+   "must": false,
+   "result": "Pass",
+   "ref": "26-1206"
+  },
+  {
+   "id": "TC-07",
+   "scenario": "Confidential biologic batch records \u2014 Director review before QM",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1207"
+  },
+  {
+   "id": "TC-08",
+   "scenario": "Drawing revision mismatch (ordered vs. received)",
+   "must": true,
+   "result": "Not run",
+   "ref": ""
+  },
+  {
+   "id": "TC-09",
+   "scenario": "No engineering drawing on file",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1209"
+  },
+  {
+   "id": "TC-10",
+   "scenario": "DVT-accepted part (no dimensional inspection)",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1210"
+  },
+  {
+   "id": "TC-11",
+   "scenario": "Manufacturer inspection report shows an out-of-spec dimension",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1211"
+  },
+  {
+   "id": "TC-12",
+   "scenario": "Missing required COC",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1212"
+  },
+  {
+   "id": "TC-13",
+   "scenario": "Multiple materials/finishes requiring multiple COCs",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1213"
+  },
+  {
+   "id": "TC-14",
+   "scenario": "File-access boundary \u2014 within one PO",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1214"
+  },
+  {
+   "id": "TC-15",
+   "scenario": "PRF Section 1 mismatch (engineer pre-fill error)",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1215"
+  },
+  {
+   "id": "TC-16",
+   "scenario": "Run manifest content and placement",
+   "must": false,
+   "result": "Pass",
+   "ref": "26-1216"
+  },
+  {
+   "id": "TC-17",
+   "scenario": "Sibling-PO isolation",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1217"
+  },
+  {
+   "id": "TC-18",
+   "scenario": "PO#/year mismatch",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1218"
+  },
+  {
+   "id": "TC-19",
+   "scenario": "Native-checkbox integrity after a plain run",
+   "must": true,
+   "result": "Not run",
+   "ref": ""
+  },
+  {
+   "id": "TC-20",
+   "scenario": "Multi-part PO, one line held for missing documents",
+   "must": true,
+   "result": "On hold",
+   "ref": ""
+  },
+  {
+   "id": "TC-21",
+   "scenario": "Quantity short of ordered, within tolerance",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1221"
+  },
+  {
+   "id": "TC-22",
+   "scenario": "Two PO revisions on file with conflicting qty",
+   "must": true,
+   "result": "Proposed",
+   "ref": ""
+  },
+  {
+   "id": "TC-23",
+   "scenario": "Sterilization-only service vendor, no traveler",
+   "must": false,
+   "result": "Not run",
+   "ref": ""
+  },
+  {
+   "id": "TC-24",
+   "scenario": "Disposition via APDL lookup",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1224"
+  },
+  {
+   "id": "TC-25",
+   "scenario": "Stadium/oval critical-dimension callouts",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1225"
+  },
+  {
+   "id": "TC-26",
+   "scenario": "Re-run against a hand-corrected PRF (no-clobber guard)",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1226"
+  },
+  {
+   "id": "TC-27",
+   "scenario": "Section 5 text drafted per the Reasoning Reference",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1227"
+  },
+  {
+   "id": "TC-28",
+   "scenario": "Compiled before packing slip exists",
+   "must": true,
+   "result": "Not run",
+   "ref": ""
+  },
+  {
+   "id": "TC-29",
+   "scenario": "Scanned packing slip \u2014 signature read by vision",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1229"
+  },
+  {
+   "id": "TC-30",
+   "scenario": "COC bundled inside packing-slip PDF",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1230"
+  },
+  {
+   "id": "TC-31",
+   "scenario": "Drawing exists only inside the PO PDF",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1231"
+  },
+  {
+   "id": "TC-32",
+   "scenario": "Vendor sales-order acknowledgement in PO folder",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1232"
+  },
+  {
+   "id": "TC-33",
+   "scenario": "Explicitly unsterilized lot from an always-sterile vendor",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1233"
+  },
+  {
+   "id": "TC-34",
+   "scenario": "Sterile part with no sterilization COC",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1234"
+  },
+  {
+   "id": "TC-35",
+   "scenario": "Vendor paperwork naming a different customer or PO",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1235"
+  },
+  {
+   "id": "TC-36",
+   "scenario": "COC material differs from drawing callout",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1236"
+  },
+  {
+   "id": "TC-37",
+   "scenario": "Large multi-part PO (10+ parts) signed off part by part",
+   "must": true,
+   "result": "Pass",
+   "ref": "26-1237"
+  },
+  {
+   "id": "TC-38",
+   "scenario": "Rework shipment: vendor lot \u2260 engraved lot",
+   "must": true,
+   "result": "Not run",
+   "ref": ""
+  }
+ ],
+ "matrix_error": ""
+}

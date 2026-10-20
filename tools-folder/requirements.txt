@@ -1,0 +1,76 @@
+# ACME Medical Receiving Inspection — Tools Folder Dependencies
+# Document: WI-7.4.3-01
+# Python 3.10 or higher required
+#
+# Install all Python packages with:
+#   pip install -r requirements.txt
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# PYTHON PACKAGES
+# ─────────────────────────────────────────────────────────────────────────────
+
+anthropic>=0.40.0       # Anthropic API — Claude document reasoning
+pdfplumber>=0.11.0      # PDF text extraction (primary, zero tokens)
+openpyxl>=3.1.0         # Excel PRF read/write
+pymupdf>=1.24.0         # PDF merge, annotation, highlighting (imports as fitz)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SYSTEM DEPENDENCIES  (not pip — install separately)
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# LibreOffice  — required for PRF xlsx → PDF export
+#   Windows : https://libreoffice.org/download
+#   Mac     : brew install --cask libreoffice
+#   Linux   : sudo apt install libreoffice
+#
+# Ghostscript  — required for fully editable compiled PDFs
+#   (strips security flags, encryption, and AcroForm locks from merged PDFs)
+#   Windows : https://ghostscript.com/releases/gsdnld.html
+#   Mac     : brew install ghostscript
+#   Linux   : sudo apt install ghostscript
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# TOOLS FOLDER CONTENTS (complete setup)
+# ─────────────────────────────────────────────────────────────────────────────
+#
+#   ACME-Tools/
+#   ├── CLAUDE.md            controlled instruction document (WI-7.4.3-01)
+#   ├── receive.py           generalized automation — any PO, any vendor
+#   ├── prf_helpers.py       utility functions imported by receive.py
+#   ├── requirements.txt     this file
+#   └── parts_cache.json     auto-created on first run (do not edit manually)
+#
+#   Note: parts_cache.json stores parsed drawing data keyed by part#+revision.
+#   It is a non-controlled tool artifact — do not place it in any PO folder.
+#
+#   Per-PO edge case scripts (rare): placed in the PO folder, not here.
+#   Naming convention: process_PO26-0085.py
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# PATH SETUP (one-time per machine)
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# Add this folder to your system PATH so receive.py runs from any PO folder:
+#
+#   Windows (PowerShell, run once):
+#     [Environment]::SetEnvironmentVariable(
+#       "PATH",
+#       $env:PATH + ";C:\path\to\ACME-Tools",
+#       "User"
+#     )
+#
+#   Mac / Linux (~/.zshrc or ~/.bashrc, add one line):
+#     export PATH="$PATH:/path/to/ACME-Tools"
+#
+# Then from any PO folder:
+#   python receive.py PO26-0085
+#   python receive.py PO26-0085 --parts SR25-1202,SR90-1001
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# CLAUDE CODE (CLAUDE.md)
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# Place CLAUDE.md at ~/.claude/CLAUDE.md (global — loads automatically in
+# every Claude Code session regardless of which directory you run it from).
+# Update ~/.claude/CLAUDE.md from the controlled master in this folder
+# whenever a new revision is approved.

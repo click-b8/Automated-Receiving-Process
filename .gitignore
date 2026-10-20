@@ -1,0 +1,22 @@
+# secrets / per-machine state
+tools-folder/.obsidian/plugins/*/data.json
+tools-folder/.obsidian/workspace*.json
+.env
+# generated at runtime
+tools-folder/Project Map/_scripts/.dashboard_data.json
+tools-folder/Project Map/_scripts/.dashboard_cache.json
+tools-folder/Project Map/_scripts/.monday_dhr_log.jsonl
+tools-folder/Project Map/_scripts/.refresh_log.txt
+tools-folder/parts_cache.json
+tools-folder/_tmp/
+tools-folder/logs/*.json
+tools-folder/_backup/
+# company-controlled files — never publish
+tools-folder/templates/*.xlsx
+tools-folder/qf_7.2-01_apdl_catalog.json
+tools-folder/Validation/
+# tooling
+__pycache__/
+node_modules/
+tools/screenshot-harness/demo/
+tools/screenshot-harness/*.html
