@@ -4,7 +4,7 @@
 |---|---|---|
 | `UnicodeEncodeError` on start (old builds) | Windows cp1252 console | Current `main()` forces UTF-8. Otherwise `set PYTHONUTF8=1` |
 | `[ERROR] Required folder missing: COCs/` | Run from the wrong folder, or the subfolder is named differently | `cd` into the PO folder. Rename to the WI's names, or add a fallback in the `F_*` constants |
-| `PO document not found` | PO PDF lacks the PO number in its filename | Rename to `26-0085 - Vendor.pdf`. Vendor sales-order acknowledgements are intentionally ignored |
+| `PO document not found` | PO PDF lacks the PO number in its filename | Rename to `26-1085 - Vendor.pdf`. Vendor sales-order acknowledgements are intentionally ignored |
 | Run stops: *PO revision conflict* | Two PO copies disagree on rev or qty | Decide which governs, then move the other to `Archive\` |
 | Part shows **Pending** | No PRF found | Name it `PRF <part#> Rev <X>.xlsx` in `Inspection Forms\` |
 | Part **HELD** | Multi-part PO, this part has no documents of its own | Get the vendor paperwork |

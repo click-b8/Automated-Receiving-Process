@@ -7,8 +7,8 @@ Box is the **system of record** for purchase-order documents and signed release 
 ```
 C:\Users\<you>\Box\Shared\Purchase Orders\
 └── 2026\
-    ├── 26-0085 - VendorA\                 "<yy-nnnn> - <Vendor>"  (the dashboard parses this)
-    │   ├── 26-0085 - VendorA.pdf          PO document (quote pages are ignored)
+    ├── 26-1085 - VendorA\                 "<yy-nnnn> - <Vendor>"  (the dashboard parses this)
+    │   ├── 26-1085 - VendorA.pdf          PO document (quote pages are ignored)
     │   ├── Shipping Docs\                 packing slip(s), receiving list (QF 7.4.3-01)
     │   ├── COCs\                          manufacturer COCs, sterilization COCs, travelers, inspection reports
     │   ├── Drawings\                      <part#>_Rev_<X>.pdf  (fallback folder name: "Drawings & Stepfiles")

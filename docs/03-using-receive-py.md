@@ -7,8 +7,8 @@ The tool processes **only parts whose PRF already exists**. A part with no PRF i
 1. **Documents are in the PO folder** (Box):
 
    ```
-   26-0085 - VendorA\
-   ├── 26-0085 - VendorA.pdf          PO document (root, or in Shipping Docs\)
+   26-1085 - VendorA\
+   ├── 26-1085 - VendorA.pdf          PO document (root, or in Shipping Docs\)
    ├── Shipping Docs\                 packing slip(s), receiving list
    ├── COCs\                          manufacturer COCs, ster COCs, travelers, inspection reports
    ├── Drawings\                      one PDF per part, named by part number   (fallback: "Drawings & Stepfiles\")
@@ -16,19 +16,19 @@ The tool processes **only parts whose PRF already exists**. A part with no PRF i
    ```
 
 2. **The PRF Section 1 is filled** (PO#, vendor, inspection date, qty, product, part#, rev, lot, plus 1.2 quantity inspected and 1.3 QDA), along with Section 3 measurements and Section 4 comments if applicable. These sections are yours, and the tool only **reads** them.
-3. **The PRF is named** `PRF SR25-1202 Rev A.xlsx`. If the same part and rev arrive twice on one PO, add `Lot <lot>`. Legacy `PRF-SR25-1202_Rev_A.xlsx` and `SR25-1202 Rev A PRF.xlsx` are also recognized.
+3. **The PRF is named** `PRF SR90-1202 Rev A.xlsx`. If the same part and rev arrive twice on one PO, add `Lot <lot>`. Legacy `PRF-SR90-1202_Rev_A.xlsx` and `SR90-1202 Rev A PRF.xlsx` are also recognized.
 
 ## Run
 
 ```powershell
-cd "C:\Users\<you>\Box\Shared\Purchase Orders\2026\26-0085 - VendorA"
-python "C:\Users\<you>\Desktop\Receiving Task Automation Tools\receive.py" PO26-0085
+cd "C:\Users\<you>\Box\Shared\Purchase Orders\2026\26-1085 - VendorA"
+python "C:\Users\<you>\Desktop\Receiving Task Automation Tools\receive.py" PO26-1085
 
 # just some parts
-python ...\receive.py PO26-0085 --parts SR25-1202,SR25-1203
+python ...\receive.py PO26-1085 --parts SR90-1202,SR90-1203
 
 # re-run over a package a human has already edited (discards those edits — only on explicit instruction)
-python ...\receive.py PO26-0085 --force
+python ...\receive.py PO26-1085 --force
 ```
 
 The working directory **is** the PO folder. The tool never reads sibling POs or parent folders.
@@ -36,28 +36,28 @@ The working directory **is** the PO folder. The tool never reads sibling POs or 
 ## What you get
 
 ```
-26-0085 - VendorA\
+26-1085 - VendorA\
 ├── In-Progress Receiving\
-│   └── PO26-0085 Receiving Part 1 - SR25-1202.pdf     ← compiled package, ready to review & sign
+│   └── PO26-1085 Receiving Part 1 - SR90-1202.pdf     ← compiled package, ready to review & sign
 └── Inspection Forms\
-    ├── PRF SR25-1202 Rev A.xlsx                        ← Sections 2/5/6 filled, native checkboxes intact
-    └── PRF SR25-1202 Rev A.pdf                         ← exported, letterhead stamped
+    ├── PRF SR90-1202 Rev A.xlsx                        ← Sections 2/5/6 filled, native checkboxes intact
+    └── PRF SR90-1202 Rev A.pdf                         ← exported, letterhead stamped
 
-<tools folder>\logs\PO26-0085_SR25-1202_20261020-1012_manifest.json   ← dev aid, not a quality record
+<tools folder>\logs\PO26-1085_SR90-1202_20261020-1012_manifest.json   ← dev aid, not a quality record
 ```
 
 And a console summary:
 
 ```
 ====================================================
- PO26-0085 — Complete | Vendor: VendorA
+ PO26-1085 — Complete | Vendor: VendorA
 ====================================================
 
- Part SR25-1202  Rev A  Lot 2604002
-  In-Progress Receiving/PO26-0085 Receiving Part 1 - SR25-1202.pdf  (14 pages)
-  Inspection Forms/PRF SR25-1202 Rev A.xlsx  updated
-  Inspection Forms/PRF SR25-1202 Rev A.pdf  exported
-  logs/PO26-0085_SR25-1202_20261020-1012_manifest.json  written
+ Part SR90-1202  Rev A  Lot 9904002
+  In-Progress Receiving/PO26-1085 Receiving Part 1 - SR90-1202.pdf  (14 pages)
+  Inspection Forms/PRF SR90-1202 Rev A.xlsx  updated
+  Inspection Forms/PRF SR90-1202 Rev A.pdf  exported
+  logs/PO26-1085_SR90-1202_20261020-1012_manifest.json  written
   2.1 Completed | 2.2 N/A | 2.3 N/A | 2.4 N/A | 2.5 Yes | 2.6 No
   Section 3: N/A
   Disposition: Raw Goods

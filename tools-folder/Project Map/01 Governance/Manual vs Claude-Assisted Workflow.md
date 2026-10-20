@@ -23,8 +23,8 @@ year-rooted `_Automation\tools\`.
 ## Running it manually (from inside the PO folder or with a full path, PowerShell)
 
 ```powershell
-python "C:\Users\<you>\Desktop\Receiving Task Automation Tools\receive.py" PO26-0085
-python "C:\Users\<you>\Desktop\Receiving Task Automation Tools\receive.py" PO26-0085 --parts SR25-1202,SR90-1001
+python "C:\Users\<you>\Desktop\Receiving Task Automation Tools\receive.py" PO26-1085
+python "C:\Users\<you>\Desktop\Receiving Task Automation Tools\receive.py" PO26-1085 --parts SR90-1202,SR90-1001
 ```
 
 Identical command and output to what a Claude Code session runs — no behavior difference. (Adding the tools folder to PATH, documented in `requirements.txt`, lets you drop the full path.)

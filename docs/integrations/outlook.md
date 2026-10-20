@@ -39,7 +39,7 @@ Packages over the mail size limit go as a **Box link**, or by DocuSign with the 
 When a PO stalls, a short email-style notice goes to the PO's monday item and is stored there as an update:
 
 ```
-STUCK - PO26-0085
+STUCK - PO26-1085
 Issue: Qty short 4 pcs vs PO, waiting on vendor confirmation - Auto
 ```
 
@@ -49,7 +49,7 @@ The dashboard parses these (`parseStuckIssues()`) to infer a delay reason for ho
 
 In Claude (claude.ai / Cowork) sessions with the Microsoft 365 connector enabled, Claude can search and read Outlook mail and calendar on the user's behalf. In this project it's used for:
 
-- **finding vendor replies**: "find the COC the vendor sent for lot 2604002 last week" (`outlook_email_search`)
+- **finding vendor replies**: "find the COC the vendor sent for lot 9904002 last week" (`outlook_email_search`)
 - **chasing signatures**: checking whether a package went out and to whom
 - **triage**: pulling recent threads about a held PO before deciding the next step
 

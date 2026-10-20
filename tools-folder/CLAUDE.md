@@ -171,11 +171,11 @@ class of bug cannot recur on a per-sheet basis again.
 ## HOW TO USE
 
 Claude Code is opened at the year folder. When the user says "process
-PO26-0085" or "run inspection on PO26-0085":
+PO26-1085" or "run inspection on PO26-1085":
 
 ```
-python _Automation\tools\receive.py PO26-0085
-python _Automation\tools\receive.py PO26-0085 --parts SR25-1202,SR90-1001
+python _Automation\tools\receive.py PO26-1085
+python _Automation\tools\receive.py PO26-1085 --parts SR90-1202,SR90-1001
 ```
 
 Claude Code workflow:
@@ -183,7 +183,7 @@ Claude Code workflow:
 1. Confirm PO# year matches the year folder Claude Code was opened in (File
    Access Rules) — stop and flag if not
 2. Parse PO document to get full parts list
-3. Scan `PO26-0085\Inspection Forms\` — process only parts with a pre-filled
+3. Scan `PO26-1085\Inspection Forms\` — process only parts with a pre-filled
    PRF present
 4. Report pending parts (on PO but no PRF found) in the summary
 5. For each ready part: validate Section 1 (Step 2.5) — if it fails, halt
@@ -231,11 +231,11 @@ runs going forward should be manual.
 
 From the year folder, in PowerShell:
 ```powershell
-python _Automation\tools\receive.py PO26-0085
-python _Automation\tools\receive.py PO26-0085 --parts SR25-1202,SR90-1001
+python _Automation\tools\receive.py PO26-1085
+python _Automation\tools\receive.py PO26-1085 --parts SR90-1202,SR90-1001
 ```
 This is the exact same command Claude Code runs when asked to "process
-PO26-0085" — there is no difference in behavior or output between a
+PO26-1085" — there is no difference in behavior or output between a
 Claude-run and a manually-run pass. Read the printed summary the same way:
 Section 1 mismatches first, then per-part results, then flags.
 
@@ -277,7 +277,7 @@ constant. Always list actual folder names before assuming they match constants.
 |     |     |     |-- prf_helpers.py      READ ONLY
 |     |     |     |-- _cache\             READ/WRITE — parts_cache.json, _tmp/
 |     |     |-- (no logs\ here — manifests live in Desktop\Receiving Task Automation Tools\logs\; Open Item #8, decided 2026-10-05)
-|     |-- PO26-0085\
+|     |-- PO26-1085\
 |     |     |-- Shipping Docs\            <- PO document, packing slip(s), receiving list
 |     |     |-- COCs\                     <- all external manufacturer COCs and travelers
 |     |     |-- Drawings\                 <- CAD drawings (PRIMARY — check here first)
@@ -300,10 +300,10 @@ DRAWINGS FOLDER: check Drawings/ first, fall back to Drawings & Stepfiles/
 
 Output per part (part that passes Section 1 validation):
 ```
-2026\PO26-0085\In-Progress Receiving\PO26-0085 Receiving Part 1 - SR25-1202.pdf
-2026\PO26-0085\Inspection Forms\PRF SR25-1202 Rev A.xlsx        (updated in place)
-2026\PO26-0085\Inspection Forms\PRF SR25-1202 Rev A.pdf         (exported by automation)
-Desktop\Receiving Task Automation Tools\logs\PO26-0085_SR25-1202_20260716-1412_manifest.json   (development aid, not a quality record — Step 9)
+2026\PO26-1085\In-Progress Receiving\PO26-1085 Receiving Part 1 - SR90-1202.pdf
+2026\PO26-1085\Inspection Forms\PRF SR90-1202 Rev A.xlsx        (updated in place)
+2026\PO26-1085\Inspection Forms\PRF SR90-1202 Rev A.pdf         (exported by automation)
+Desktop\Receiving Task Automation Tools\logs\PO26-1085_SR90-1202_20260716-1412_manifest.json   (development aid, not a quality record — Step 9)
 ```
 
 ---
@@ -315,7 +315,7 @@ Desktop\Receiving Task Automation Tools\logs\PO26-0085_SR25-1202_20260716-1412_m
 Confirm the PO# year matches the year folder (File Access Rules consistency
 check) — stop if not.
 
-Confirm `PO26-0085\Inspection Forms\` and `PO26-0085\COCs\` exist. Stop if missing.
+Confirm `PO26-1085\Inspection Forms\` and `PO26-1085\COCs\` exist. Stop if missing.
 
 Open the PO document (check PO folder root first, then Shipping Docs/). Extract:
 - PO number, PO date, PO revision, vendor name
@@ -424,7 +424,7 @@ else:
 
 ### Step 3 — Compile the receiving package
 
-Output: `PO26-0085\In-Progress Receiving\PO##-##### Receiving Part X - Product Part#.pdf`
+Output: `PO26-1085\In-Progress Receiving\PO##-##### Receiving Part X - Product Part#.pdf`
 
 DOCUMENT ORDER (per SOP 7.4.3 Rev L and the Quality Manager's Proof Receiving Checklist):
 
@@ -468,7 +468,7 @@ Escalate to claude-haiku-4-5-20251001 only when pdfplumber output is incomplete.
 
 ### Step 5 — Parse CAD drawing with cache
 
-Check `_Automation\tools\_cache\parts_cache.json` for key `"SR25-1202_RevA"`.
+Check `_Automation\tools\_cache\parts_cache.json` for key `"SR90-1202_RevA"`.
 If found, use it. Cache lives in `_Automation\tools\_cache\` only — NEVER
 write it inside a PO folder.
 
@@ -846,9 +846,9 @@ optional lot suffix, timestamp) must identify the run without opening it.
 
 Confirm both Excel and PDF in the summary for every part that passed Step 2.5:
 ```
-Inspection Forms/PRF SR25-1202 Rev A.xlsx  updated ✓
-Inspection Forms/PRF SR25-1202 Rev A.pdf   exported ✓
-logs/PO26-0085_SR25-1202_20260716-1412_manifest.json  written ✓   (Desktop tools folder)
+Inspection Forms/PRF SR90-1202 Rev A.xlsx  updated ✓
+Inspection Forms/PRF SR90-1202 Rev A.pdf   exported ✓
+logs/PO26-1085_SR90-1202_20260716-1412_manifest.json  written ✓   (Desktop tools folder)
 ```
 
 Clean `_Automation\tools\_cache\_tmp\` after each run. Do not clean
@@ -959,20 +959,20 @@ language until that column is filled.
 
 ```
 ====================================================
-PO26-0085 — Complete | Vendor: VendorA | WI-7.4.3-01 Rev 02
+PO26-1085 — Complete | Vendor: VendorA | WI-7.4.3-01 Rev 02
 ====================================================
 
 *** SECTION 1 MISMATCHES — RESOLVE BEFORE ANYTHING ELSE ***
-  SR90-1001: PRF states Product P/N 'SR25-1202' / PO states 'SR90-1001'.
+  SR90-1001: PRF states Product P/N 'SR90-1202' / PO states 'SR90-1001'.
              Engineer must correct Section 1. No package produced this run.
 
 Vendor: VendorA | Parts on order: 3 | PRFs ready: 2 | Section 1 mismatch: 1
 
-Part 1: SR25-1202  Rev A  Lot 9900007
-  In-Progress Receiving/PO26-0085 Receiving Part 1 - SR25-1202.pdf  (N pages)
-  Inspection Forms/PRF SR25-1202 Rev A.xlsx  updated
-  Inspection Forms/PRF SR25-1202 Rev A.pdf   exported
-  logs/PO26-0085_SR25-1202_20260716-1412_manifest.json  written (Desktop tools folder)
+Part 1: SR90-1202  Rev A  Lot 9900007
+  In-Progress Receiving/PO26-1085 Receiving Part 1 - SR90-1202.pdf  (N pages)
+  Inspection Forms/PRF SR90-1202 Rev A.xlsx  updated
+  Inspection Forms/PRF SR90-1202 Rev A.pdf   exported
+  logs/PO26-1085_SR90-1202_20260716-1412_manifest.json  written (Desktop tools folder)
   2.1 Completed | 2.2 N/A | 2.3 N/A | 2.4 N/A | 2.5 Yes | 2.6 No
   Section 3: N/A (no inspection callouts)
   Disposition: Raw Goods

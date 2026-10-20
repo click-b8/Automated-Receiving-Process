@@ -4,7 +4,7 @@ monday.com is where Operations, Engineering and Quality track each PO through re
 
 ## Board shape the plugin expects
 
-One board, for example *Receiving – New Inspection*. One **item per PO** (or per PO shipment), named so the PO number can be parsed: `PO: 26-0085 VendorA - (Screws)`.
+One board, for example *Receiving – New Inspection*. One **item per PO** (or per PO shipment), named so the PO number can be parsed: `PO: 26-1085 VendorA - (Screws)`.
 
 | Groups (typical flow) | |
 |---|---|
@@ -50,7 +50,7 @@ mutation ($b: ID!, $i: ID!, $c: String!, $v: String) {
 
 mutation ($i: ID!, $body: String!) {
   create_update(item_id: $i, body: $body) { id }
-}   # "Status set to DHR automatically by the Receiving Dashboard. All 3 compiled part(s) for PO26-0085
+}   # "Status set to DHR automatically by the Receiving Dashboard. All 3 compiled part(s) for PO26-1085
     #  are signed off in Completed Receivings in Box: SR90-1101, SR90-1102, SR90-1103. Box scan 2026-10-20 10:30."
 ```
 
@@ -69,7 +69,7 @@ Every change is appended to `Project Map/_scripts/.monday_dhr_log.jsonl`:
 When an item goes **Stuck**, the team's notice, sent by email through Outlook and recorded on the monday item as an update, has the shape:
 
 ```
-STUCK - PO26-0085
+STUCK - PO26-1085
 Issue: Emailing vendor for COC, no packing slip in box - Auto
 ```
 

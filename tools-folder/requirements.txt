@@ -44,7 +44,7 @@ pymupdf>=1.24.0         # PDF merge, annotation, highlighting (imports as fitz)
 #   It is a non-controlled tool artifact — do not place it in any PO folder.
 #
 #   Per-PO edge case scripts (rare): placed in the PO folder, not here.
-#   Naming convention: process_PO26-0085.py
+#   Naming convention: process_PO26-1085.py
 #
 # ─────────────────────────────────────────────────────────────────────────────
 # PATH SETUP (one-time per machine)
@@ -63,8 +63,8 @@ pymupdf>=1.24.0         # PDF merge, annotation, highlighting (imports as fitz)
 #     export PATH="$PATH:/path/to/ACME-Tools"
 #
 # Then from any PO folder:
-#   python receive.py PO26-0085
-#   python receive.py PO26-0085 --parts SR25-1202,SR90-1001
+#   python receive.py PO26-1085
+#   python receive.py PO26-1085 --parts SR90-1202,SR90-1001
 #
 # ─────────────────────────────────────────────────────────────────────────────
 # CLAUDE CODE (CLAUDE.md)

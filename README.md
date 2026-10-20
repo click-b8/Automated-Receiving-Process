@@ -91,8 +91,8 @@ pip install -r requirements.txt            # anthropic, pdfplumber, openpyxl, py
 [System.Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", "sk-ant-...", "User")
 
 # 3. Run on a PO folder (run it FROM the PO folder; the tool never reads outside it)
-cd "C:\Users\<you>\Box\Shared\Purchase Orders\2026\26-0085 - VendorA"
-python "C:\path\to\tools-folder\receive.py" PO26-0085
+cd "C:\Users\<you>\Box\Shared\Purchase Orders\2026\26-1085 - VendorA"
+python "C:\path\to\tools-folder\receive.py" PO26-1085
 ```
 
 Then open `tools-folder` as a vault in Obsidian, enable the **Receiving Dashboard** community plugin and click the gauge icon. Full setup is in [docs/02-setup.md](docs/02-setup.md).

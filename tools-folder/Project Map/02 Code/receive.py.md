@@ -89,6 +89,6 @@ The merge-aware checkbox helpers (`_parse_merge_ranges` etc.) use `_re` at modul
 
 ## Used by
 
-- [[Manual vs Claude-Assisted Workflow]] (CLI entry point: `python receive.py PO26-0085`, now run from `Desktop\Receiving Task Automation Tools\` directly — see [[Folder Structure]])
+- [[Manual vs Claude-Assisted Workflow]] (CLI entry point: `python receive.py PO26-1085`, now run from `Desktop\Receiving Task Automation Tools\` directly — see [[Folder Structure]])
 - `receive.bat` (thin Windows wrapper)
 - Bypassed entirely by the [[Edge-Case Scripts]] for specific real POs whose circumstances don't fit the general path — now ~14 scripts, not 2 (2026-09-11 scope decision: fix recurring root causes here, keep genuinely one-off circumstances bespoke — see [[Open Items (Master List)#Item EC — Undocumented Edge-Case Scripts|Item EC]])

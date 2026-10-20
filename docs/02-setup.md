@@ -50,7 +50,7 @@ The PRF cell map (which cell is 2.3 "No", where Section 5 text goes, and so on) 
 Install **Box Drive** so PO folders appear as normal paths, for example:
 
 ```
-C:\Users\<you>\Box\Shared\Purchase Orders\2026\26-0085 - VendorA\
+C:\Users\<you>\Box\Shared\Purchase Orders\2026\26-1085 - VendorA\
 ```
 
 See [integrations/box.md](integrations/box.md) for the required PO subfolders.
@@ -84,6 +84,6 @@ python "%~dp0receive.py" %*
 
 ## 9. Optional: Claude Code / Cowork
 
-`CLAUDE.md` is written as Claude Code project instructions. Open Claude Code in a **PO folder** that contains a copy of the WI, and ask "process PO26-0085". It follows the same steps and file-access rules and runs the same script. Engineers copy the canonical WI into each PO folder rather than editing it locally.
+`CLAUDE.md` is written as Claude Code project instructions. Open Claude Code in a **PO folder** that contains a copy of the WI, and ask "process PO26-1085". It follows the same steps and file-access rules and runs the same script. Engineers copy the canonical WI into each PO folder rather than editing it locally.
 
 Day to day, the AI session is mostly used to **debug and improve the tool**, maintain the vault and draft validation documents. Routine POs are just `python receive.py`.

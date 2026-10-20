@@ -8,8 +8,8 @@ PRE-RUN (engineer completes first for each part):
   Naming: PRF SR##-#### Rev X.xlsx  (add Lot only if same part+rev appears twice)
 
 USAGE:
-  python receive.py PO26-0085                              # all parts with PRFs ready
-  python receive.py PO26-0085 --parts SR25-1202,SR90-1001  # specific parts only
+  python receive.py PO26-1085                              # all parts with PRFs ready
+  python receive.py PO26-1085 --parts SR90-1202,SR90-1001  # specific parts only
 """
 
 SCRIPT_VERSION = "1.0"
@@ -4147,7 +4147,7 @@ def main():
             pass
 
     parser = argparse.ArgumentParser(description="ACME Medical Receiving Automation")
-    parser.add_argument("po_number", help="PO number, e.g. PO26-0085")
+    parser.add_argument("po_number", help="PO number, e.g. PO26-1085")
     parser.add_argument("--parts", help="Comma-separated part numbers to process")
     parser.add_argument("--force", action="store_true",
                         help="Discard any human edits already made to a delivered "
